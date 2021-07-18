@@ -20,3 +20,11 @@ export type TabOneParamList = {
 export type TabTwoParamList = {
   TabTwoScreen: undefined;
 };
+
+export type PokeType = {
+  type: string;
+  weakness: Array<PokeType>;
+  strength: Array<PokeType>;
+  nodamage: Array<PokeType>;
+}
+
