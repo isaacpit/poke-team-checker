@@ -14,4 +14,4 @@ web-build/
 .DS_Store
 
 # python
-__pycache__
+*__pycache__
