@@ -30,7 +30,7 @@ from threading import Thread
 # httpclient_logging_patch()
 from PokeApiGenerator import PokeApiGenerator, PokemonInfoResponse
 
-LIMIT = 1200
+LIMIT = 5
 # logger= logging.getLogger("data_gen.py")
 
 url = PokeApiGenerator.get_pokemon_w_limit_query_url(LIMIT)

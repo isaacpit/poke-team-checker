@@ -30,7 +30,7 @@ logging.basicConfig(
   format='%(asctime)s - %(levelname)-6s - %(message)s', 
   # filename="example.log", 
   # level=logging.DEBUG, 
-  level=logging.INFO, 
+  level=logging.DEBUG, 
   datefmt='%m/%d/%Y %I:%M:%S %p',
   handlers=loggingHandlers
 )
