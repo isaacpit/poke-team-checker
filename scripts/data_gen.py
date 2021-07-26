@@ -1,3 +1,4 @@
+from logging import log
 import sys
 import requests
 import pprint as pp 
@@ -29,30 +30,36 @@ from threading import Thread
 # httpclient_logging_patch()
 from PokeApiGenerator import PokeApiGenerator, PokemonInfoResponse
 
-
-
-LIMIT = 2
-
-logging.basicConfig(format='%(asctime)s - %(levelname)-10s - %(message)s', filename="example.log", level=logging.INFO, datefmt='%m/%d/%Y %I:%M:%S %p')
+LIMIT = 1200
 # logger= logging.getLogger("data_gen.py")
 
-
-
 url = PokeApiGenerator.get_pokemon_w_limit_query_url(LIMIT)
-logging.info("calling pokeApi with url: {}".format(url))
+logging.debug("calling pokeApi with url: {}".format(url))
 response = requests.get(url)
 
 responseObj = json.loads(response.content)
-logging.info("response {}".format("-" * 20))
 # pp.pprint(responseObj, indent=1)
 
 pokeResultsList = responseObj["results"]
-logging.info("pokeResultsList: {}".format( "-" * 20))
 for x in pokeResultsList:
   # pp.pprint(x)
-  logging.info(pp.pformat(x))
+  logging.debug(pp.pformat(x))
 # pp.pprint(pokeResultsList)
 
 
 
-PokeApiGenerator.loopThroughList(pokeResultsList)
+pokeResultsList = PokeApiGenerator.loopThroughList(pokeResultsList)
+
+pokemonOutputRelativePath = '../data/'
+pokemonOutputFileName = 'poke-data.json'
+pokemonOutputFullName = pokemonOutputRelativePath + pokemonOutputFileName
+prettyOutput = True
+# print("POKE-RESULTS: {}".format(pokeResultsList))
+print("outputting to file: {}".format(pokemonOutputFileName))
+with open(pokemonOutputFullName, 'w') as f:
+  if prettyOutput:
+    json.dump(pokeResultsList, f, indent=2)
+  else:
+    json.dumps(pokeResultsList, f)
+
+
