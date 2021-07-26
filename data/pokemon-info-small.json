@@ -1,0 +1,92 @@
+{
+  "type-list": [
+    {
+      "type": "normal",
+      "vulnerable-to": ["fighting"],
+      "resistant-to": ["ghost"],
+      "weak-against": ["rock", "ghost", "steel"],
+      "strong-against": [""]
+    },
+    {
+      "type": "electric",
+      "vulnerable-to": ["ground"],
+      "resistant-to": ["flying", "steel", "electric"],
+      "weak-against": ["ground", "grass", "dragon", "electric"],
+      "strong-against": ["flying", "water"]
+    }
+  ],
+  "pokemon-list": [
+    {
+      "name": "bulbasaur",
+      "index": 1,
+      "type": ["grass", "poison"],
+      "forms": [
+        {
+          "name": "bulbasaur",
+          "url": "https://pokeapi.co/api/v2/pokemon-form/1/"
+        }
+      ],
+      "sprites": [
+        {
+          "sprite-type": "front_default",
+          "sprite-url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/1.png"
+        },
+        {
+          "sprite-type": "front_shiny",
+          "sprite-url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/1.png"
+        }
+      ],
+      "stats": [
+        {
+          "base_stat": 45,
+          "effort": 0,
+          "stat": {
+            "name": "hp",
+            "url": "https://pokeapi.co/api/v2/stat/1/"
+          }
+        },
+        {
+          "base_stat": 49,
+          "effort": 0,
+          "stat": {
+            "name": "attack",
+            "url": "https://pokeapi.co/api/v2/stat/2/"
+          }
+        },
+        {
+          "base_stat": 49,
+          "effort": 0,
+          "stat": {
+            "name": "defense",
+            "url": "https://pokeapi.co/api/v2/stat/3/"
+          }
+        },
+        {
+          "base_stat": 65,
+          "effort": 1,
+          "stat": {
+            "name": "special-attack",
+            "url": "https://pokeapi.co/api/v2/stat/4/"
+          }
+        },
+        {
+          "base_stat": 65,
+          "effort": 0,
+          "stat": {
+            "name": "special-defense",
+            "url": "https://pokeapi.co/api/v2/stat/5/"
+          }
+        },
+        {
+          "base_stat": 45,
+          "effort": 0,
+          "stat": {
+            "name": "speed",
+            "url": "https://pokeapi.co/api/v2/stat/6/"
+          }
+        }
+      ]
+    }
+  ]
+
+}
