@@ -39,10 +39,10 @@ class PokeApiGenerator:
         time.sleep(SLEEP_TIME_PER_CALL)
 
       a_pokemon_url = getPokeListResult['url']
-      logging.debug("{}/{} - {}".format(i, n_pokemon, a_pokemon_url))
       logging.info("(%4d/%4s) %s", i+1, n_pokemon, getPokeListResult['name'])
+      logging.info("\t%s", a_pokemon_url)
       response = requests.get(a_pokemon_url)
-      logging.debug("\n{}".format(pp.pformat(list(response.json().keys()))))
+      logging.debug("GetPokemonAPI Reponse Keys\n{}".format(pp.pformat(list(response.json().keys()))))
       extractedObj = PokemonInfoResponse(response.json())
       pokeResultsList[i] = extractedObj.d_data
     
@@ -68,15 +68,19 @@ class PokemonInfoResponse:
 
   def __init__(self, response_obj):
     self.d_data = {} 
+    SHOULD_SNEAK_PEAK_POKE_FIELDS = True
+
+    if SHOULD_SNEAK_PEAK_POKE_FIELDS:
+      logging.debug("Sneak Peak of poke fields")
     for k, v in response_obj.items():
-      SHOULD_SNEAK_PEAK_POKE_FIELDS = False
+      
       if SHOULD_SNEAK_PEAK_POKE_FIELDS:
-        print("{:30} {:20} {:10}".format(k, str(v)[0:20], k in PokemonInfoResponse.DESIRED_FIELDS))
+        logging.debug("{:30} {:20} {}".format(k, str(v)[0:20], k in PokemonInfoResponse.DESIRED_FIELDS))
 
       if k in PokemonInfoResponse.DESIRED_FIELDS:
         self.d_data[k] = PokemonInfoResponse.transform_data(k, v)
 
-    logging.debug(json.dumps(self.d_data, indent=2))
+    logging.debug("Final Transformed Data\n%s", json.dumps(self.d_data, indent=2))
     # logging.info(self.d_data.keys())
     
   
@@ -93,12 +97,12 @@ class PokemonInfoResponse:
   def helper_transform_sprites(value_obj):
     return value_obj['front_default']
   def helper_transform_stats(value_obj):
-    logging.debug(json.dumps(value_obj, indent=2))
+    logging.debug("Stats before transform\n%s", json.dumps(value_obj, indent=2))
     result_obj = []
     for stat in value_obj:
       result_obj.append({ "base_stat": stat['base_stat'], "stat_name": stat['stat']['name']})
       
-    logging.debug(result_obj)
+    logging.debug("Transformed stats\n%s", json.dumps(result_obj, indent=2))
     return result_obj
   def helper_transform_types(value_obj):
     types_obj = []
