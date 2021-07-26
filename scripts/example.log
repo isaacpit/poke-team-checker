@@ -1,0 +1,3113 @@
+07/22/2021 11:51:25 PM INFO       - Getting pokemon with limit: 2
+07/22/2021 11:51:25 PM INFO       - calling pokeApi with url: https://pokeapi.co/api/v2/pokemon?limit=2
+07/22/2021 11:51:25 PM DEBUG      - Starting new HTTPS connection (1): pokeapi.co:443
+07/22/2021 11:51:25 PM DEBUG      - https://pokeapi.co:443 "GET /api/v2/pokemon?limit=2 HTTP/1.1" 200 None
+07/22/2021 11:51:25 PM INFO       - response --------------------
+07/22/2021 11:51:25 PM INFO       - pokeResultsList: --------------------
+07/22/2021 11:51:25 PM INFO       - {'name': 'bulbasaur', 'url': 'https://pokeapi.co/api/v2/pokemon/1/'}
+07/22/2021 11:51:25 PM INFO       - {'name': 'ivysaur', 'url': 'https://pokeapi.co/api/v2/pokemon/2/'}
+07/22/2021 11:51:25 PM INFO       - calling pokeApi with url: https://pokeapi.co/api/v2/pokemon/1/
+07/22/2021 11:51:25 PM DEBUG      - Starting new HTTPS connection (1): pokeapi.co:443
+07/22/2021 11:51:26 PM DEBUG      - https://pokeapi.co:443 "GET /api/v2/pokemon/1/ HTTP/1.1" 200 5341
+07/22/2021 11:51:26 PM INFO       - 
+['abilities',
+ 'base_experience',
+ 'forms',
+ 'game_indices',
+ 'height',
+ 'held_items',
+ 'id',
+ 'is_default',
+ 'location_area_encounters',
+ 'moves',
+ 'name',
+ 'order',
+ 'past_types',
+ 'species',
+ 'sprites',
+ 'stats',
+ 'types',
+ 'weight']
+07/22/2021 11:51:26 PM INFO       - {
+  "forms": [
+    {
+      "name": "bulbasaur",
+      "url": "https://pokeapi.co/api/v2/pokemon-form/1/"
+    }
+  ],
+  "name": "bulbasaur",
+  "order": 1,
+  "species": {
+    "name": "bulbasaur",
+    "url": "https://pokeapi.co/api/v2/pokemon-species/1/"
+  },
+  "sprites": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/1.png",
+  "stats": [
+    {
+      "base_stat": 45,
+      "stat_name": "hp"
+    },
+    {
+      "base_stat": 49,
+      "stat_name": "attack"
+    },
+    {
+      "base_stat": 49,
+      "stat_name": "defense"
+    },
+    {
+      "base_stat": 65,
+      "stat_name": "special-attack"
+    },
+    {
+      "base_stat": 65,
+      "stat_name": "special-defense"
+    },
+    {
+      "base_stat": 45,
+      "stat_name": "speed"
+    }
+  ],
+  "types": [
+    {
+      "slot": 1,
+      "type_name": "grass"
+    },
+    {
+      "slot": 2,
+      "type_name": "poison"
+    }
+  ]
+}
+07/22/2021 11:51:26 PM INFO       - {
+  "forms": [
+    {
+      "name": "bulbasaur",
+      "url": "https://pokeapi.co/api/v2/pokemon-form/1/"
+    }
+  ],
+  "name": "bulbasaur",
+  "order": 1,
+  "species": {
+    "name": "bulbasaur",
+    "url": "https://pokeapi.co/api/v2/pokemon-species/1/"
+  },
+  "sprites": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/1.png",
+  "stats": [
+    {
+      "base_stat": 45,
+      "stat_name": "hp"
+    },
+    {
+      "base_stat": 49,
+      "stat_name": "attack"
+    },
+    {
+      "base_stat": 49,
+      "stat_name": "defense"
+    },
+    {
+      "base_stat": 65,
+      "stat_name": "special-attack"
+    },
+    {
+      "base_stat": 65,
+      "stat_name": "special-defense"
+    },
+    {
+      "base_stat": 45,
+      "stat_name": "speed"
+    }
+  ],
+  "types": [
+    {
+      "slot": 1,
+      "type_name": "grass"
+    },
+    {
+      "slot": 2,
+      "type_name": "poison"
+    }
+  ]
+}
+07/22/2021 11:51:26 PM INFO       - calling pokeApi with url: https://pokeapi.co/api/v2/pokemon/2/
+07/22/2021 11:51:26 PM DEBUG      - Starting new HTTPS connection (1): pokeapi.co:443
+07/22/2021 11:51:26 PM DEBUG      - https://pokeapi.co:443 "GET /api/v2/pokemon/2/ HTTP/1.1" 200 4783
+07/22/2021 11:51:26 PM INFO       - 
+['abilities',
+ 'base_experience',
+ 'forms',
+ 'game_indices',
+ 'height',
+ 'held_items',
+ 'id',
+ 'is_default',
+ 'location_area_encounters',
+ 'moves',
+ 'name',
+ 'order',
+ 'past_types',
+ 'species',
+ 'sprites',
+ 'stats',
+ 'types',
+ 'weight']
+07/22/2021 11:51:26 PM INFO       - {
+  "forms": [
+    {
+      "name": "ivysaur",
+      "url": "https://pokeapi.co/api/v2/pokemon-form/2/"
+    }
+  ],
+  "name": "ivysaur",
+  "order": 2,
+  "species": {
+    "name": "ivysaur",
+    "url": "https://pokeapi.co/api/v2/pokemon-species/2/"
+  },
+  "sprites": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/2.png",
+  "stats": [
+    {
+      "base_stat": 60,
+      "stat_name": "hp"
+    },
+    {
+      "base_stat": 62,
+      "stat_name": "attack"
+    },
+    {
+      "base_stat": 63,
+      "stat_name": "defense"
+    },
+    {
+      "base_stat": 80,
+      "stat_name": "special-attack"
+    },
+    {
+      "base_stat": 80,
+      "stat_name": "special-defense"
+    },
+    {
+      "base_stat": 60,
+      "stat_name": "speed"
+    }
+  ],
+  "types": [
+    {
+      "slot": 1,
+      "type_name": "grass"
+    },
+    {
+      "slot": 2,
+      "type_name": "poison"
+    }
+  ]
+}
+07/22/2021 11:51:26 PM INFO       - {
+  "forms": [
+    {
+      "name": "ivysaur",
+      "url": "https://pokeapi.co/api/v2/pokemon-form/2/"
+    }
+  ],
+  "name": "ivysaur",
+  "order": 2,
+  "species": {
+    "name": "ivysaur",
+    "url": "https://pokeapi.co/api/v2/pokemon-species/2/"
+  },
+  "sprites": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/2.png",
+  "stats": [
+    {
+      "base_stat": 60,
+      "stat_name": "hp"
+    },
+    {
+      "base_stat": 62,
+      "stat_name": "attack"
+    },
+    {
+      "base_stat": 63,
+      "stat_name": "defense"
+    },
+    {
+      "base_stat": 80,
+      "stat_name": "special-attack"
+    },
+    {
+      "base_stat": 80,
+      "stat_name": "special-defense"
+    },
+    {
+      "base_stat": 60,
+      "stat_name": "speed"
+    }
+  ],
+  "types": [
+    {
+      "slot": 1,
+      "type_name": "grass"
+    },
+    {
+      "slot": 2,
+      "type_name": "poison"
+    }
+  ]
+}
+07/22/2021 11:52:10 PM INFO       - Getting pokemon with limit: 2
+07/22/2021 11:52:10 PM INFO       - calling pokeApi with url: https://pokeapi.co/api/v2/pokemon?limit=2
+07/22/2021 11:52:10 PM DEBUG      - Starting new HTTPS connection (1): pokeapi.co:443
+07/22/2021 11:52:11 PM DEBUG      - https://pokeapi.co:443 "GET /api/v2/pokemon?limit=2 HTTP/1.1" 200 None
+07/22/2021 11:52:11 PM INFO       - response --------------------
+07/22/2021 11:52:11 PM INFO       - pokeResultsList: --------------------
+07/22/2021 11:52:11 PM INFO       - {'name': 'bulbasaur', 'url': 'https://pokeapi.co/api/v2/pokemon/1/'}
+07/22/2021 11:52:11 PM INFO       - {'name': 'ivysaur', 'url': 'https://pokeapi.co/api/v2/pokemon/2/'}
+07/22/2021 11:52:11 PM INFO       - calling pokeApi with url: https://pokeapi.co/api/v2/pokemon/1/
+07/22/2021 11:52:11 PM DEBUG      - Starting new HTTPS connection (1): pokeapi.co:443
+07/22/2021 11:52:11 PM DEBUG      - https://pokeapi.co:443 "GET /api/v2/pokemon/1/ HTTP/1.1" 200 5341
+07/22/2021 11:52:11 PM INFO       - 
+['abilities',
+ 'base_experience',
+ 'forms',
+ 'game_indices',
+ 'height',
+ 'held_items',
+ 'id',
+ 'is_default',
+ 'location_area_encounters',
+ 'moves',
+ 'name',
+ 'order',
+ 'past_types',
+ 'species',
+ 'sprites',
+ 'stats',
+ 'types',
+ 'weight']
+07/22/2021 11:52:11 PM INFO       - {
+  "forms": [
+    {
+      "name": "bulbasaur",
+      "url": "https://pokeapi.co/api/v2/pokemon-form/1/"
+    }
+  ],
+  "name": "bulbasaur",
+  "order": 1,
+  "species": {
+    "name": "bulbasaur",
+    "url": "https://pokeapi.co/api/v2/pokemon-species/1/"
+  },
+  "sprites": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/1.png",
+  "stats": [
+    {
+      "base_stat": 45,
+      "stat_name": "hp"
+    },
+    {
+      "base_stat": 49,
+      "stat_name": "attack"
+    },
+    {
+      "base_stat": 49,
+      "stat_name": "defense"
+    },
+    {
+      "base_stat": 65,
+      "stat_name": "special-attack"
+    },
+    {
+      "base_stat": 65,
+      "stat_name": "special-defense"
+    },
+    {
+      "base_stat": 45,
+      "stat_name": "speed"
+    }
+  ],
+  "types": [
+    {
+      "slot": 1,
+      "type_name": "grass"
+    },
+    {
+      "slot": 2,
+      "type_name": "poison"
+    }
+  ]
+}
+07/22/2021 11:52:11 PM INFO       - {
+  "forms": [
+    {
+      "name": "bulbasaur",
+      "url": "https://pokeapi.co/api/v2/pokemon-form/1/"
+    }
+  ],
+  "name": "bulbasaur",
+  "order": 1,
+  "species": {
+    "name": "bulbasaur",
+    "url": "https://pokeapi.co/api/v2/pokemon-species/1/"
+  },
+  "sprites": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/1.png",
+  "stats": [
+    {
+      "base_stat": 45,
+      "stat_name": "hp"
+    },
+    {
+      "base_stat": 49,
+      "stat_name": "attack"
+    },
+    {
+      "base_stat": 49,
+      "stat_name": "defense"
+    },
+    {
+      "base_stat": 65,
+      "stat_name": "special-attack"
+    },
+    {
+      "base_stat": 65,
+      "stat_name": "special-defense"
+    },
+    {
+      "base_stat": 45,
+      "stat_name": "speed"
+    }
+  ],
+  "types": [
+    {
+      "slot": 1,
+      "type_name": "grass"
+    },
+    {
+      "slot": 2,
+      "type_name": "poison"
+    }
+  ]
+}
+07/22/2021 11:52:11 PM INFO       - calling pokeApi with url: https://pokeapi.co/api/v2/pokemon/2/
+07/22/2021 11:52:11 PM DEBUG      - Starting new HTTPS connection (1): pokeapi.co:443
+07/22/2021 11:52:11 PM DEBUG      - https://pokeapi.co:443 "GET /api/v2/pokemon/2/ HTTP/1.1" 200 4783
+07/22/2021 11:52:11 PM INFO       - 
+['abilities',
+ 'base_experience',
+ 'forms',
+ 'game_indices',
+ 'height',
+ 'held_items',
+ 'id',
+ 'is_default',
+ 'location_area_encounters',
+ 'moves',
+ 'name',
+ 'order',
+ 'past_types',
+ 'species',
+ 'sprites',
+ 'stats',
+ 'types',
+ 'weight']
+07/22/2021 11:52:11 PM INFO       - {
+  "forms": [
+    {
+      "name": "ivysaur",
+      "url": "https://pokeapi.co/api/v2/pokemon-form/2/"
+    }
+  ],
+  "name": "ivysaur",
+  "order": 2,
+  "species": {
+    "name": "ivysaur",
+    "url": "https://pokeapi.co/api/v2/pokemon-species/2/"
+  },
+  "sprites": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/2.png",
+  "stats": [
+    {
+      "base_stat": 60,
+      "stat_name": "hp"
+    },
+    {
+      "base_stat": 62,
+      "stat_name": "attack"
+    },
+    {
+      "base_stat": 63,
+      "stat_name": "defense"
+    },
+    {
+      "base_stat": 80,
+      "stat_name": "special-attack"
+    },
+    {
+      "base_stat": 80,
+      "stat_name": "special-defense"
+    },
+    {
+      "base_stat": 60,
+      "stat_name": "speed"
+    }
+  ],
+  "types": [
+    {
+      "slot": 1,
+      "type_name": "grass"
+    },
+    {
+      "slot": 2,
+      "type_name": "poison"
+    }
+  ]
+}
+07/22/2021 11:52:11 PM INFO       - {
+  "forms": [
+    {
+      "name": "ivysaur",
+      "url": "https://pokeapi.co/api/v2/pokemon-form/2/"
+    }
+  ],
+  "name": "ivysaur",
+  "order": 2,
+  "species": {
+    "name": "ivysaur",
+    "url": "https://pokeapi.co/api/v2/pokemon-species/2/"
+  },
+  "sprites": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/2.png",
+  "stats": [
+    {
+      "base_stat": 60,
+      "stat_name": "hp"
+    },
+    {
+      "base_stat": 62,
+      "stat_name": "attack"
+    },
+    {
+      "base_stat": 63,
+      "stat_name": "defense"
+    },
+    {
+      "base_stat": 80,
+      "stat_name": "special-attack"
+    },
+    {
+      "base_stat": 80,
+      "stat_name": "special-defense"
+    },
+    {
+      "base_stat": 60,
+      "stat_name": "speed"
+    }
+  ],
+  "types": [
+    {
+      "slot": 1,
+      "type_name": "grass"
+    },
+    {
+      "slot": 2,
+      "type_name": "poison"
+    }
+  ]
+}
+07/22/2021 11:52:26 PM INFO       - Getting pokemon with limit: 2
+07/22/2021 11:52:26 PM INFO       - calling pokeApi with url: https://pokeapi.co/api/v2/pokemon?limit=2
+07/22/2021 11:52:26 PM DEBUG      - Starting new HTTPS connection (1): pokeapi.co:443
+07/22/2021 11:52:26 PM DEBUG      - https://pokeapi.co:443 "GET /api/v2/pokemon?limit=2 HTTP/1.1" 200 None
+07/22/2021 11:52:26 PM INFO       - response --------------------
+07/22/2021 11:52:26 PM INFO       - pokeResultsList: --------------------
+07/22/2021 11:52:26 PM INFO       - {'name': 'bulbasaur', 'url': 'https://pokeapi.co/api/v2/pokemon/1/'}
+07/22/2021 11:52:26 PM INFO       - {'name': 'ivysaur', 'url': 'https://pokeapi.co/api/v2/pokemon/2/'}
+07/22/2021 11:52:26 PM INFO       - calling pokeApi with url: https://pokeapi.co/api/v2/pokemon/1/
+07/22/2021 11:52:26 PM DEBUG      - Starting new HTTPS connection (1): pokeapi.co:443
+07/22/2021 11:52:27 PM DEBUG      - https://pokeapi.co:443 "GET /api/v2/pokemon/1/ HTTP/1.1" 200 5341
+07/22/2021 11:52:27 PM INFO       - 
+['abilities',
+ 'base_experience',
+ 'forms',
+ 'game_indices',
+ 'height',
+ 'held_items',
+ 'id',
+ 'is_default',
+ 'location_area_encounters',
+ 'moves',
+ 'name',
+ 'order',
+ 'past_types',
+ 'species',
+ 'sprites',
+ 'stats',
+ 'types',
+ 'weight']
+07/22/2021 11:52:27 PM INFO       - abilities                      [{'ability': {'name'          0
+07/22/2021 11:52:27 PM INFO       - base_experience                64                            0
+07/22/2021 11:52:27 PM INFO       - forms                          [{'name': 'bulbasaur          1
+07/22/2021 11:52:27 PM INFO       - game_indices                   [{'game_index': 153,          0
+07/22/2021 11:52:27 PM INFO       - height                         7                             0
+07/22/2021 11:52:27 PM INFO       - held_items                     []                            0
+07/22/2021 11:52:27 PM INFO       - id                             1                             0
+07/22/2021 11:52:27 PM INFO       - is_default                     True                          0
+07/22/2021 11:52:27 PM INFO       - location_area_encounters       https://pokeapi.co/a          0
+07/22/2021 11:52:27 PM INFO       - moves                          [{'move': {'name': '          0
+07/22/2021 11:52:27 PM INFO       - name                           bulbasaur                     1
+07/22/2021 11:52:27 PM INFO       - order                          1                             1
+07/22/2021 11:52:27 PM INFO       - past_types                     []                            0
+07/22/2021 11:52:27 PM INFO       - species                        {'name': 'bulbasaur'          1
+07/22/2021 11:52:27 PM INFO       - sprites                        {'back_default': 'ht          1
+07/22/2021 11:52:27 PM INFO       - stats                          [{'base_stat': 45, '          1
+07/22/2021 11:52:27 PM INFO       - [
+  {
+    "base_stat": 45,
+    "effort": 0,
+    "stat": {
+      "name": "hp",
+      "url": "https://pokeapi.co/api/v2/stat/1/"
+    }
+  },
+  {
+    "base_stat": 49,
+    "effort": 0,
+    "stat": {
+      "name": "attack",
+      "url": "https://pokeapi.co/api/v2/stat/2/"
+    }
+  },
+  {
+    "base_stat": 49,
+    "effort": 0,
+    "stat": {
+      "name": "defense",
+      "url": "https://pokeapi.co/api/v2/stat/3/"
+    }
+  },
+  {
+    "base_stat": 65,
+    "effort": 1,
+    "stat": {
+      "name": "special-attack",
+      "url": "https://pokeapi.co/api/v2/stat/4/"
+    }
+  },
+  {
+    "base_stat": 65,
+    "effort": 0,
+    "stat": {
+      "name": "special-defense",
+      "url": "https://pokeapi.co/api/v2/stat/5/"
+    }
+  },
+  {
+    "base_stat": 45,
+    "effort": 0,
+    "stat": {
+      "name": "speed",
+      "url": "https://pokeapi.co/api/v2/stat/6/"
+    }
+  }
+]
+07/22/2021 11:52:27 PM INFO       - [{'base_stat': 45, 'stat_name': 'hp'}, {'base_stat': 49, 'stat_name': 'attack'}, {'base_stat': 49, 'stat_name': 'defense'}, {'base_stat': 65, 'stat_name': 'special-attack'}, {'base_stat': 65, 'stat_name': 'special-defense'}, {'base_stat': 45, 'stat_name': 'speed'}]
+07/22/2021 11:52:27 PM INFO       - types                          [{'slot': 1, 'type':          1
+07/22/2021 11:52:27 PM INFO       - weight                         69                            0
+07/22/2021 11:52:27 PM INFO       - {
+  "forms": [
+    {
+      "name": "bulbasaur",
+      "url": "https://pokeapi.co/api/v2/pokemon-form/1/"
+    }
+  ],
+  "name": "bulbasaur",
+  "order": 1,
+  "species": {
+    "name": "bulbasaur",
+    "url": "https://pokeapi.co/api/v2/pokemon-species/1/"
+  },
+  "sprites": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/1.png",
+  "stats": [
+    {
+      "base_stat": 45,
+      "stat_name": "hp"
+    },
+    {
+      "base_stat": 49,
+      "stat_name": "attack"
+    },
+    {
+      "base_stat": 49,
+      "stat_name": "defense"
+    },
+    {
+      "base_stat": 65,
+      "stat_name": "special-attack"
+    },
+    {
+      "base_stat": 65,
+      "stat_name": "special-defense"
+    },
+    {
+      "base_stat": 45,
+      "stat_name": "speed"
+    }
+  ],
+  "types": [
+    {
+      "slot": 1,
+      "type_name": "grass"
+    },
+    {
+      "slot": 2,
+      "type_name": "poison"
+    }
+  ]
+}
+07/22/2021 11:52:27 PM INFO       - {
+  "forms": [
+    {
+      "name": "bulbasaur",
+      "url": "https://pokeapi.co/api/v2/pokemon-form/1/"
+    }
+  ],
+  "name": "bulbasaur",
+  "order": 1,
+  "species": {
+    "name": "bulbasaur",
+    "url": "https://pokeapi.co/api/v2/pokemon-species/1/"
+  },
+  "sprites": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/1.png",
+  "stats": [
+    {
+      "base_stat": 45,
+      "stat_name": "hp"
+    },
+    {
+      "base_stat": 49,
+      "stat_name": "attack"
+    },
+    {
+      "base_stat": 49,
+      "stat_name": "defense"
+    },
+    {
+      "base_stat": 65,
+      "stat_name": "special-attack"
+    },
+    {
+      "base_stat": 65,
+      "stat_name": "special-defense"
+    },
+    {
+      "base_stat": 45,
+      "stat_name": "speed"
+    }
+  ],
+  "types": [
+    {
+      "slot": 1,
+      "type_name": "grass"
+    },
+    {
+      "slot": 2,
+      "type_name": "poison"
+    }
+  ]
+}
+07/22/2021 11:52:27 PM INFO       - calling pokeApi with url: https://pokeapi.co/api/v2/pokemon/2/
+07/22/2021 11:52:27 PM DEBUG      - Starting new HTTPS connection (1): pokeapi.co:443
+07/22/2021 11:52:27 PM DEBUG      - https://pokeapi.co:443 "GET /api/v2/pokemon/2/ HTTP/1.1" 200 4783
+07/22/2021 11:52:27 PM INFO       - 
+['abilities',
+ 'base_experience',
+ 'forms',
+ 'game_indices',
+ 'height',
+ 'held_items',
+ 'id',
+ 'is_default',
+ 'location_area_encounters',
+ 'moves',
+ 'name',
+ 'order',
+ 'past_types',
+ 'species',
+ 'sprites',
+ 'stats',
+ 'types',
+ 'weight']
+07/22/2021 11:52:27 PM INFO       - abilities                      [{'ability': {'name'          0
+07/22/2021 11:52:27 PM INFO       - base_experience                142                           0
+07/22/2021 11:52:27 PM INFO       - forms                          [{'name': 'ivysaur',          1
+07/22/2021 11:52:27 PM INFO       - game_indices                   [{'game_index': 9, '          0
+07/22/2021 11:52:27 PM INFO       - height                         10                            0
+07/22/2021 11:52:27 PM INFO       - held_items                     []                            0
+07/22/2021 11:52:27 PM INFO       - id                             2                             0
+07/22/2021 11:52:27 PM INFO       - is_default                     True                          0
+07/22/2021 11:52:27 PM INFO       - location_area_encounters       https://pokeapi.co/a          0
+07/22/2021 11:52:27 PM INFO       - moves                          [{'move': {'name': '          0
+07/22/2021 11:52:27 PM INFO       - name                           ivysaur                       1
+07/22/2021 11:52:27 PM INFO       - order                          2                             1
+07/22/2021 11:52:27 PM INFO       - past_types                     []                            0
+07/22/2021 11:52:27 PM INFO       - species                        {'name': 'ivysaur',           1
+07/22/2021 11:52:27 PM INFO       - sprites                        {'back_default': 'ht          1
+07/22/2021 11:52:27 PM INFO       - stats                          [{'base_stat': 60, '          1
+07/22/2021 11:52:27 PM INFO       - [
+  {
+    "base_stat": 60,
+    "effort": 0,
+    "stat": {
+      "name": "hp",
+      "url": "https://pokeapi.co/api/v2/stat/1/"
+    }
+  },
+  {
+    "base_stat": 62,
+    "effort": 0,
+    "stat": {
+      "name": "attack",
+      "url": "https://pokeapi.co/api/v2/stat/2/"
+    }
+  },
+  {
+    "base_stat": 63,
+    "effort": 0,
+    "stat": {
+      "name": "defense",
+      "url": "https://pokeapi.co/api/v2/stat/3/"
+    }
+  },
+  {
+    "base_stat": 80,
+    "effort": 1,
+    "stat": {
+      "name": "special-attack",
+      "url": "https://pokeapi.co/api/v2/stat/4/"
+    }
+  },
+  {
+    "base_stat": 80,
+    "effort": 1,
+    "stat": {
+      "name": "special-defense",
+      "url": "https://pokeapi.co/api/v2/stat/5/"
+    }
+  },
+  {
+    "base_stat": 60,
+    "effort": 0,
+    "stat": {
+      "name": "speed",
+      "url": "https://pokeapi.co/api/v2/stat/6/"
+    }
+  }
+]
+07/22/2021 11:52:27 PM INFO       - [{'base_stat': 60, 'stat_name': 'hp'}, {'base_stat': 62, 'stat_name': 'attack'}, {'base_stat': 63, 'stat_name': 'defense'}, {'base_stat': 80, 'stat_name': 'special-attack'}, {'base_stat': 80, 'stat_name': 'special-defense'}, {'base_stat': 60, 'stat_name': 'speed'}]
+07/22/2021 11:52:27 PM INFO       - types                          [{'slot': 1, 'type':          1
+07/22/2021 11:52:27 PM INFO       - weight                         130                           0
+07/22/2021 11:52:27 PM INFO       - {
+  "forms": [
+    {
+      "name": "ivysaur",
+      "url": "https://pokeapi.co/api/v2/pokemon-form/2/"
+    }
+  ],
+  "name": "ivysaur",
+  "order": 2,
+  "species": {
+    "name": "ivysaur",
+    "url": "https://pokeapi.co/api/v2/pokemon-species/2/"
+  },
+  "sprites": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/2.png",
+  "stats": [
+    {
+      "base_stat": 60,
+      "stat_name": "hp"
+    },
+    {
+      "base_stat": 62,
+      "stat_name": "attack"
+    },
+    {
+      "base_stat": 63,
+      "stat_name": "defense"
+    },
+    {
+      "base_stat": 80,
+      "stat_name": "special-attack"
+    },
+    {
+      "base_stat": 80,
+      "stat_name": "special-defense"
+    },
+    {
+      "base_stat": 60,
+      "stat_name": "speed"
+    }
+  ],
+  "types": [
+    {
+      "slot": 1,
+      "type_name": "grass"
+    },
+    {
+      "slot": 2,
+      "type_name": "poison"
+    }
+  ]
+}
+07/22/2021 11:52:27 PM INFO       - {
+  "forms": [
+    {
+      "name": "ivysaur",
+      "url": "https://pokeapi.co/api/v2/pokemon-form/2/"
+    }
+  ],
+  "name": "ivysaur",
+  "order": 2,
+  "species": {
+    "name": "ivysaur",
+    "url": "https://pokeapi.co/api/v2/pokemon-species/2/"
+  },
+  "sprites": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/2.png",
+  "stats": [
+    {
+      "base_stat": 60,
+      "stat_name": "hp"
+    },
+    {
+      "base_stat": 62,
+      "stat_name": "attack"
+    },
+    {
+      "base_stat": 63,
+      "stat_name": "defense"
+    },
+    {
+      "base_stat": 80,
+      "stat_name": "special-attack"
+    },
+    {
+      "base_stat": 80,
+      "stat_name": "special-defense"
+    },
+    {
+      "base_stat": 60,
+      "stat_name": "speed"
+    }
+  ],
+  "types": [
+    {
+      "slot": 1,
+      "type_name": "grass"
+    },
+    {
+      "slot": 2,
+      "type_name": "poison"
+    }
+  ]
+}
+07/22/2021 11:53:02 PM - INFO       - Getting pokemon with limit: 2
+07/22/2021 11:53:02 PM - INFO       - calling pokeApi with url: https://pokeapi.co/api/v2/pokemon?limit=2
+07/22/2021 11:53:02 PM - DEBUG      - Starting new HTTPS connection (1): pokeapi.co:443
+07/22/2021 11:53:02 PM - DEBUG      - https://pokeapi.co:443 "GET /api/v2/pokemon?limit=2 HTTP/1.1" 200 None
+07/22/2021 11:53:02 PM - INFO       - response --------------------
+07/22/2021 11:53:02 PM - INFO       - pokeResultsList: --------------------
+07/22/2021 11:53:02 PM - INFO       - {'name': 'bulbasaur', 'url': 'https://pokeapi.co/api/v2/pokemon/1/'}
+07/22/2021 11:53:02 PM - INFO       - {'name': 'ivysaur', 'url': 'https://pokeapi.co/api/v2/pokemon/2/'}
+07/22/2021 11:53:02 PM - INFO       - calling pokeApi with url: https://pokeapi.co/api/v2/pokemon/1/
+07/22/2021 11:53:02 PM - DEBUG      - Starting new HTTPS connection (1): pokeapi.co:443
+07/22/2021 11:53:02 PM - DEBUG      - https://pokeapi.co:443 "GET /api/v2/pokemon/1/ HTTP/1.1" 200 5341
+07/22/2021 11:53:02 PM - INFO       - 
+['abilities',
+ 'base_experience',
+ 'forms',
+ 'game_indices',
+ 'height',
+ 'held_items',
+ 'id',
+ 'is_default',
+ 'location_area_encounters',
+ 'moves',
+ 'name',
+ 'order',
+ 'past_types',
+ 'species',
+ 'sprites',
+ 'stats',
+ 'types',
+ 'weight']
+07/22/2021 11:53:02 PM - INFO       - abilities                      [{'ability': {'name'          0
+07/22/2021 11:53:02 PM - INFO       - base_experience                64                            0
+07/22/2021 11:53:02 PM - INFO       - forms                          [{'name': 'bulbasaur          1
+07/22/2021 11:53:02 PM - INFO       - game_indices                   [{'game_index': 153,          0
+07/22/2021 11:53:02 PM - INFO       - height                         7                             0
+07/22/2021 11:53:02 PM - INFO       - held_items                     []                            0
+07/22/2021 11:53:02 PM - INFO       - id                             1                             0
+07/22/2021 11:53:02 PM - INFO       - is_default                     True                          0
+07/22/2021 11:53:02 PM - INFO       - location_area_encounters       https://pokeapi.co/a          0
+07/22/2021 11:53:02 PM - INFO       - moves                          [{'move': {'name': '          0
+07/22/2021 11:53:02 PM - INFO       - name                           bulbasaur                     1
+07/22/2021 11:53:02 PM - INFO       - order                          1                             1
+07/22/2021 11:53:02 PM - INFO       - past_types                     []                            0
+07/22/2021 11:53:02 PM - INFO       - species                        {'name': 'bulbasaur'          1
+07/22/2021 11:53:02 PM - INFO       - sprites                        {'back_default': 'ht          1
+07/22/2021 11:53:02 PM - INFO       - stats                          [{'base_stat': 45, '          1
+07/22/2021 11:53:02 PM - INFO       - [
+  {
+    "base_stat": 45,
+    "effort": 0,
+    "stat": {
+      "name": "hp",
+      "url": "https://pokeapi.co/api/v2/stat/1/"
+    }
+  },
+  {
+    "base_stat": 49,
+    "effort": 0,
+    "stat": {
+      "name": "attack",
+      "url": "https://pokeapi.co/api/v2/stat/2/"
+    }
+  },
+  {
+    "base_stat": 49,
+    "effort": 0,
+    "stat": {
+      "name": "defense",
+      "url": "https://pokeapi.co/api/v2/stat/3/"
+    }
+  },
+  {
+    "base_stat": 65,
+    "effort": 1,
+    "stat": {
+      "name": "special-attack",
+      "url": "https://pokeapi.co/api/v2/stat/4/"
+    }
+  },
+  {
+    "base_stat": 65,
+    "effort": 0,
+    "stat": {
+      "name": "special-defense",
+      "url": "https://pokeapi.co/api/v2/stat/5/"
+    }
+  },
+  {
+    "base_stat": 45,
+    "effort": 0,
+    "stat": {
+      "name": "speed",
+      "url": "https://pokeapi.co/api/v2/stat/6/"
+    }
+  }
+]
+07/22/2021 11:53:02 PM - INFO       - [{'base_stat': 45, 'stat_name': 'hp'}, {'base_stat': 49, 'stat_name': 'attack'}, {'base_stat': 49, 'stat_name': 'defense'}, {'base_stat': 65, 'stat_name': 'special-attack'}, {'base_stat': 65, 'stat_name': 'special-defense'}, {'base_stat': 45, 'stat_name': 'speed'}]
+07/22/2021 11:53:02 PM - INFO       - types                          [{'slot': 1, 'type':          1
+07/22/2021 11:53:02 PM - INFO       - weight                         69                            0
+07/22/2021 11:53:02 PM - INFO       - {
+  "forms": [
+    {
+      "name": "bulbasaur",
+      "url": "https://pokeapi.co/api/v2/pokemon-form/1/"
+    }
+  ],
+  "name": "bulbasaur",
+  "order": 1,
+  "species": {
+    "name": "bulbasaur",
+    "url": "https://pokeapi.co/api/v2/pokemon-species/1/"
+  },
+  "sprites": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/1.png",
+  "stats": [
+    {
+      "base_stat": 45,
+      "stat_name": "hp"
+    },
+    {
+      "base_stat": 49,
+      "stat_name": "attack"
+    },
+    {
+      "base_stat": 49,
+      "stat_name": "defense"
+    },
+    {
+      "base_stat": 65,
+      "stat_name": "special-attack"
+    },
+    {
+      "base_stat": 65,
+      "stat_name": "special-defense"
+    },
+    {
+      "base_stat": 45,
+      "stat_name": "speed"
+    }
+  ],
+  "types": [
+    {
+      "slot": 1,
+      "type_name": "grass"
+    },
+    {
+      "slot": 2,
+      "type_name": "poison"
+    }
+  ]
+}
+07/22/2021 11:53:02 PM - INFO       - {
+  "forms": [
+    {
+      "name": "bulbasaur",
+      "url": "https://pokeapi.co/api/v2/pokemon-form/1/"
+    }
+  ],
+  "name": "bulbasaur",
+  "order": 1,
+  "species": {
+    "name": "bulbasaur",
+    "url": "https://pokeapi.co/api/v2/pokemon-species/1/"
+  },
+  "sprites": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/1.png",
+  "stats": [
+    {
+      "base_stat": 45,
+      "stat_name": "hp"
+    },
+    {
+      "base_stat": 49,
+      "stat_name": "attack"
+    },
+    {
+      "base_stat": 49,
+      "stat_name": "defense"
+    },
+    {
+      "base_stat": 65,
+      "stat_name": "special-attack"
+    },
+    {
+      "base_stat": 65,
+      "stat_name": "special-defense"
+    },
+    {
+      "base_stat": 45,
+      "stat_name": "speed"
+    }
+  ],
+  "types": [
+    {
+      "slot": 1,
+      "type_name": "grass"
+    },
+    {
+      "slot": 2,
+      "type_name": "poison"
+    }
+  ]
+}
+07/22/2021 11:53:02 PM - INFO       - calling pokeApi with url: https://pokeapi.co/api/v2/pokemon/2/
+07/22/2021 11:53:02 PM - DEBUG      - Starting new HTTPS connection (1): pokeapi.co:443
+07/22/2021 11:53:03 PM - DEBUG      - https://pokeapi.co:443 "GET /api/v2/pokemon/2/ HTTP/1.1" 200 4783
+07/22/2021 11:53:03 PM - INFO       - 
+['abilities',
+ 'base_experience',
+ 'forms',
+ 'game_indices',
+ 'height',
+ 'held_items',
+ 'id',
+ 'is_default',
+ 'location_area_encounters',
+ 'moves',
+ 'name',
+ 'order',
+ 'past_types',
+ 'species',
+ 'sprites',
+ 'stats',
+ 'types',
+ 'weight']
+07/22/2021 11:53:03 PM - INFO       - abilities                      [{'ability': {'name'          0
+07/22/2021 11:53:03 PM - INFO       - base_experience                142                           0
+07/22/2021 11:53:03 PM - INFO       - forms                          [{'name': 'ivysaur',          1
+07/22/2021 11:53:03 PM - INFO       - game_indices                   [{'game_index': 9, '          0
+07/22/2021 11:53:03 PM - INFO       - height                         10                            0
+07/22/2021 11:53:03 PM - INFO       - held_items                     []                            0
+07/22/2021 11:53:03 PM - INFO       - id                             2                             0
+07/22/2021 11:53:03 PM - INFO       - is_default                     True                          0
+07/22/2021 11:53:03 PM - INFO       - location_area_encounters       https://pokeapi.co/a          0
+07/22/2021 11:53:03 PM - INFO       - moves                          [{'move': {'name': '          0
+07/22/2021 11:53:03 PM - INFO       - name                           ivysaur                       1
+07/22/2021 11:53:03 PM - INFO       - order                          2                             1
+07/22/2021 11:53:03 PM - INFO       - past_types                     []                            0
+07/22/2021 11:53:03 PM - INFO       - species                        {'name': 'ivysaur',           1
+07/22/2021 11:53:03 PM - INFO       - sprites                        {'back_default': 'ht          1
+07/22/2021 11:53:03 PM - INFO       - stats                          [{'base_stat': 60, '          1
+07/22/2021 11:53:03 PM - INFO       - [
+  {
+    "base_stat": 60,
+    "effort": 0,
+    "stat": {
+      "name": "hp",
+      "url": "https://pokeapi.co/api/v2/stat/1/"
+    }
+  },
+  {
+    "base_stat": 62,
+    "effort": 0,
+    "stat": {
+      "name": "attack",
+      "url": "https://pokeapi.co/api/v2/stat/2/"
+    }
+  },
+  {
+    "base_stat": 63,
+    "effort": 0,
+    "stat": {
+      "name": "defense",
+      "url": "https://pokeapi.co/api/v2/stat/3/"
+    }
+  },
+  {
+    "base_stat": 80,
+    "effort": 1,
+    "stat": {
+      "name": "special-attack",
+      "url": "https://pokeapi.co/api/v2/stat/4/"
+    }
+  },
+  {
+    "base_stat": 80,
+    "effort": 1,
+    "stat": {
+      "name": "special-defense",
+      "url": "https://pokeapi.co/api/v2/stat/5/"
+    }
+  },
+  {
+    "base_stat": 60,
+    "effort": 0,
+    "stat": {
+      "name": "speed",
+      "url": "https://pokeapi.co/api/v2/stat/6/"
+    }
+  }
+]
+07/22/2021 11:53:03 PM - INFO       - [{'base_stat': 60, 'stat_name': 'hp'}, {'base_stat': 62, 'stat_name': 'attack'}, {'base_stat': 63, 'stat_name': 'defense'}, {'base_stat': 80, 'stat_name': 'special-attack'}, {'base_stat': 80, 'stat_name': 'special-defense'}, {'base_stat': 60, 'stat_name': 'speed'}]
+07/22/2021 11:53:03 PM - INFO       - types                          [{'slot': 1, 'type':          1
+07/22/2021 11:53:03 PM - INFO       - weight                         130                           0
+07/22/2021 11:53:03 PM - INFO       - {
+  "forms": [
+    {
+      "name": "ivysaur",
+      "url": "https://pokeapi.co/api/v2/pokemon-form/2/"
+    }
+  ],
+  "name": "ivysaur",
+  "order": 2,
+  "species": {
+    "name": "ivysaur",
+    "url": "https://pokeapi.co/api/v2/pokemon-species/2/"
+  },
+  "sprites": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/2.png",
+  "stats": [
+    {
+      "base_stat": 60,
+      "stat_name": "hp"
+    },
+    {
+      "base_stat": 62,
+      "stat_name": "attack"
+    },
+    {
+      "base_stat": 63,
+      "stat_name": "defense"
+    },
+    {
+      "base_stat": 80,
+      "stat_name": "special-attack"
+    },
+    {
+      "base_stat": 80,
+      "stat_name": "special-defense"
+    },
+    {
+      "base_stat": 60,
+      "stat_name": "speed"
+    }
+  ],
+  "types": [
+    {
+      "slot": 1,
+      "type_name": "grass"
+    },
+    {
+      "slot": 2,
+      "type_name": "poison"
+    }
+  ]
+}
+07/22/2021 11:53:03 PM - INFO       - {
+  "forms": [
+    {
+      "name": "ivysaur",
+      "url": "https://pokeapi.co/api/v2/pokemon-form/2/"
+    }
+  ],
+  "name": "ivysaur",
+  "order": 2,
+  "species": {
+    "name": "ivysaur",
+    "url": "https://pokeapi.co/api/v2/pokemon-species/2/"
+  },
+  "sprites": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/2.png",
+  "stats": [
+    {
+      "base_stat": 60,
+      "stat_name": "hp"
+    },
+    {
+      "base_stat": 62,
+      "stat_name": "attack"
+    },
+    {
+      "base_stat": 63,
+      "stat_name": "defense"
+    },
+    {
+      "base_stat": 80,
+      "stat_name": "special-attack"
+    },
+    {
+      "base_stat": 80,
+      "stat_name": "special-defense"
+    },
+    {
+      "base_stat": 60,
+      "stat_name": "speed"
+    }
+  ],
+  "types": [
+    {
+      "slot": 1,
+      "type_name": "grass"
+    },
+    {
+      "slot": 2,
+      "type_name": "poison"
+    }
+  ]
+}
+07/22/2021 11:54:18 PM - INFO       - Getting pokemon with limit: 2
+07/22/2021 11:54:18 PM - INFO       - calling pokeApi with url: https://pokeapi.co/api/v2/pokemon?limit=2
+07/22/2021 11:54:18 PM - DEBUG      - Starting new HTTPS connection (1): pokeapi.co:443
+07/22/2021 11:54:18 PM - DEBUG      - https://pokeapi.co:443 "GET /api/v2/pokemon?limit=2 HTTP/1.1" 200 None
+07/22/2021 11:54:18 PM - INFO       - response --------------------
+07/22/2021 11:54:18 PM - INFO       - pokeResultsList: --------------------
+07/22/2021 11:54:18 PM - INFO       - {'name': 'bulbasaur', 'url': 'https://pokeapi.co/api/v2/pokemon/1/'}
+07/22/2021 11:54:18 PM - INFO       - {'name': 'ivysaur', 'url': 'https://pokeapi.co/api/v2/pokemon/2/'}
+07/22/2021 11:54:18 PM - INFO       - calling pokeApi with url: https://pokeapi.co/api/v2/pokemon/1/
+07/22/2021 11:54:18 PM - DEBUG      - Starting new HTTPS connection (1): pokeapi.co:443
+07/22/2021 11:54:18 PM - DEBUG      - https://pokeapi.co:443 "GET /api/v2/pokemon/1/ HTTP/1.1" 200 5341
+07/22/2021 11:54:18 PM - INFO       - 
+['abilities',
+ 'base_experience',
+ 'forms',
+ 'game_indices',
+ 'height',
+ 'held_items',
+ 'id',
+ 'is_default',
+ 'location_area_encounters',
+ 'moves',
+ 'name',
+ 'order',
+ 'past_types',
+ 'species',
+ 'sprites',
+ 'stats',
+ 'types',
+ 'weight']
+07/22/2021 11:54:18 PM - INFO       - {
+  "forms": [
+    {
+      "name": "bulbasaur",
+      "url": "https://pokeapi.co/api/v2/pokemon-form/1/"
+    }
+  ],
+  "name": "bulbasaur",
+  "order": 1,
+  "species": {
+    "name": "bulbasaur",
+    "url": "https://pokeapi.co/api/v2/pokemon-species/1/"
+  },
+  "sprites": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/1.png",
+  "stats": [
+    {
+      "base_stat": 45,
+      "stat_name": "hp"
+    },
+    {
+      "base_stat": 49,
+      "stat_name": "attack"
+    },
+    {
+      "base_stat": 49,
+      "stat_name": "defense"
+    },
+    {
+      "base_stat": 65,
+      "stat_name": "special-attack"
+    },
+    {
+      "base_stat": 65,
+      "stat_name": "special-defense"
+    },
+    {
+      "base_stat": 45,
+      "stat_name": "speed"
+    }
+  ],
+  "types": [
+    {
+      "slot": 1,
+      "type_name": "grass"
+    },
+    {
+      "slot": 2,
+      "type_name": "poison"
+    }
+  ]
+}
+07/22/2021 11:54:18 PM - INFO       - {
+  "forms": [
+    {
+      "name": "bulbasaur",
+      "url": "https://pokeapi.co/api/v2/pokemon-form/1/"
+    }
+  ],
+  "name": "bulbasaur",
+  "order": 1,
+  "species": {
+    "name": "bulbasaur",
+    "url": "https://pokeapi.co/api/v2/pokemon-species/1/"
+  },
+  "sprites": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/1.png",
+  "stats": [
+    {
+      "base_stat": 45,
+      "stat_name": "hp"
+    },
+    {
+      "base_stat": 49,
+      "stat_name": "attack"
+    },
+    {
+      "base_stat": 49,
+      "stat_name": "defense"
+    },
+    {
+      "base_stat": 65,
+      "stat_name": "special-attack"
+    },
+    {
+      "base_stat": 65,
+      "stat_name": "special-defense"
+    },
+    {
+      "base_stat": 45,
+      "stat_name": "speed"
+    }
+  ],
+  "types": [
+    {
+      "slot": 1,
+      "type_name": "grass"
+    },
+    {
+      "slot": 2,
+      "type_name": "poison"
+    }
+  ]
+}
+07/22/2021 11:54:18 PM - INFO       - calling pokeApi with url: https://pokeapi.co/api/v2/pokemon/2/
+07/22/2021 11:54:18 PM - DEBUG      - Starting new HTTPS connection (1): pokeapi.co:443
+07/22/2021 11:54:18 PM - DEBUG      - https://pokeapi.co:443 "GET /api/v2/pokemon/2/ HTTP/1.1" 200 4783
+07/22/2021 11:54:18 PM - INFO       - 
+['abilities',
+ 'base_experience',
+ 'forms',
+ 'game_indices',
+ 'height',
+ 'held_items',
+ 'id',
+ 'is_default',
+ 'location_area_encounters',
+ 'moves',
+ 'name',
+ 'order',
+ 'past_types',
+ 'species',
+ 'sprites',
+ 'stats',
+ 'types',
+ 'weight']
+07/22/2021 11:54:18 PM - INFO       - {
+  "forms": [
+    {
+      "name": "ivysaur",
+      "url": "https://pokeapi.co/api/v2/pokemon-form/2/"
+    }
+  ],
+  "name": "ivysaur",
+  "order": 2,
+  "species": {
+    "name": "ivysaur",
+    "url": "https://pokeapi.co/api/v2/pokemon-species/2/"
+  },
+  "sprites": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/2.png",
+  "stats": [
+    {
+      "base_stat": 60,
+      "stat_name": "hp"
+    },
+    {
+      "base_stat": 62,
+      "stat_name": "attack"
+    },
+    {
+      "base_stat": 63,
+      "stat_name": "defense"
+    },
+    {
+      "base_stat": 80,
+      "stat_name": "special-attack"
+    },
+    {
+      "base_stat": 80,
+      "stat_name": "special-defense"
+    },
+    {
+      "base_stat": 60,
+      "stat_name": "speed"
+    }
+  ],
+  "types": [
+    {
+      "slot": 1,
+      "type_name": "grass"
+    },
+    {
+      "slot": 2,
+      "type_name": "poison"
+    }
+  ]
+}
+07/22/2021 11:54:18 PM - INFO       - {
+  "forms": [
+    {
+      "name": "ivysaur",
+      "url": "https://pokeapi.co/api/v2/pokemon-form/2/"
+    }
+  ],
+  "name": "ivysaur",
+  "order": 2,
+  "species": {
+    "name": "ivysaur",
+    "url": "https://pokeapi.co/api/v2/pokemon-species/2/"
+  },
+  "sprites": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/2.png",
+  "stats": [
+    {
+      "base_stat": 60,
+      "stat_name": "hp"
+    },
+    {
+      "base_stat": 62,
+      "stat_name": "attack"
+    },
+    {
+      "base_stat": 63,
+      "stat_name": "defense"
+    },
+    {
+      "base_stat": 80,
+      "stat_name": "special-attack"
+    },
+    {
+      "base_stat": 80,
+      "stat_name": "special-defense"
+    },
+    {
+      "base_stat": 60,
+      "stat_name": "speed"
+    }
+  ],
+  "types": [
+    {
+      "slot": 1,
+      "type_name": "grass"
+    },
+    {
+      "slot": 2,
+      "type_name": "poison"
+    }
+  ]
+}
+07/22/2021 11:55:39 PM - INFO       - Getting pokemon with limit: 2
+07/22/2021 11:55:39 PM - INFO       - calling pokeApi with url: https://pokeapi.co/api/v2/pokemon?limit=2
+07/22/2021 11:55:39 PM - DEBUG      - Starting new HTTPS connection (1): pokeapi.co:443
+07/22/2021 11:55:39 PM - DEBUG      - https://pokeapi.co:443 "GET /api/v2/pokemon?limit=2 HTTP/1.1" 200 None
+07/22/2021 11:55:39 PM - INFO       - response --------------------
+07/22/2021 11:55:39 PM - INFO       - pokeResultsList: --------------------
+07/22/2021 11:55:39 PM - INFO       - {'name': 'bulbasaur', 'url': 'https://pokeapi.co/api/v2/pokemon/1/'}
+07/22/2021 11:55:39 PM - INFO       - {'name': 'ivysaur', 'url': 'https://pokeapi.co/api/v2/pokemon/2/'}
+07/22/2021 11:55:39 PM - INFO       - calling pokeApi with url: https://pokeapi.co/api/v2/pokemon/1/
+07/22/2021 11:55:39 PM - DEBUG      - Starting new HTTPS connection (1): pokeapi.co:443
+07/22/2021 11:55:39 PM - DEBUG      - https://pokeapi.co:443 "GET /api/v2/pokemon/1/ HTTP/1.1" 200 5341
+07/22/2021 11:55:39 PM - INFO       - 
+['abilities',
+ 'base_experience',
+ 'forms',
+ 'game_indices',
+ 'height',
+ 'held_items',
+ 'id',
+ 'is_default',
+ 'location_area_encounters',
+ 'moves',
+ 'name',
+ 'order',
+ 'past_types',
+ 'species',
+ 'sprites',
+ 'stats',
+ 'types',
+ 'weight']
+07/22/2021 11:55:39 PM - INFO       - abilities                      [{'ability': {'name'          0
+07/22/2021 11:55:39 PM - INFO       - base_experience                64                            0
+07/22/2021 11:55:39 PM - INFO       - forms                          [{'name': 'bulbasaur          1
+07/22/2021 11:55:39 PM - INFO       - game_indices                   [{'game_index': 153,          0
+07/22/2021 11:55:39 PM - INFO       - height                         7                             0
+07/22/2021 11:55:39 PM - INFO       - held_items                     []                            0
+07/22/2021 11:55:39 PM - INFO       - id                             1                             0
+07/22/2021 11:55:39 PM - INFO       - is_default                     True                          0
+07/22/2021 11:55:39 PM - INFO       - location_area_encounters       https://pokeapi.co/a          0
+07/22/2021 11:55:39 PM - INFO       - moves                          [{'move': {'name': '          0
+07/22/2021 11:55:39 PM - INFO       - name                           bulbasaur                     1
+07/22/2021 11:55:39 PM - INFO       - order                          1                             1
+07/22/2021 11:55:39 PM - INFO       - past_types                     []                            0
+07/22/2021 11:55:39 PM - INFO       - species                        {'name': 'bulbasaur'          1
+07/22/2021 11:55:39 PM - INFO       - sprites                        {'back_default': 'ht          1
+07/22/2021 11:55:39 PM - INFO       - stats                          [{'base_stat': 45, '          1
+07/22/2021 11:55:39 PM - INFO       - [
+  {
+    "base_stat": 45,
+    "effort": 0,
+    "stat": {
+      "name": "hp",
+      "url": "https://pokeapi.co/api/v2/stat/1/"
+    }
+  },
+  {
+    "base_stat": 49,
+    "effort": 0,
+    "stat": {
+      "name": "attack",
+      "url": "https://pokeapi.co/api/v2/stat/2/"
+    }
+  },
+  {
+    "base_stat": 49,
+    "effort": 0,
+    "stat": {
+      "name": "defense",
+      "url": "https://pokeapi.co/api/v2/stat/3/"
+    }
+  },
+  {
+    "base_stat": 65,
+    "effort": 1,
+    "stat": {
+      "name": "special-attack",
+      "url": "https://pokeapi.co/api/v2/stat/4/"
+    }
+  },
+  {
+    "base_stat": 65,
+    "effort": 0,
+    "stat": {
+      "name": "special-defense",
+      "url": "https://pokeapi.co/api/v2/stat/5/"
+    }
+  },
+  {
+    "base_stat": 45,
+    "effort": 0,
+    "stat": {
+      "name": "speed",
+      "url": "https://pokeapi.co/api/v2/stat/6/"
+    }
+  }
+]
+07/22/2021 11:55:39 PM - INFO       - [{'base_stat': 45, 'stat_name': 'hp'}, {'base_stat': 49, 'stat_name': 'attack'}, {'base_stat': 49, 'stat_name': 'defense'}, {'base_stat': 65, 'stat_name': 'special-attack'}, {'base_stat': 65, 'stat_name': 'special-defense'}, {'base_stat': 45, 'stat_name': 'speed'}]
+07/22/2021 11:55:39 PM - INFO       - types                          [{'slot': 1, 'type':          1
+07/22/2021 11:55:39 PM - INFO       - weight                         69                            0
+07/22/2021 11:55:39 PM - INFO       - {
+  "forms": [
+    {
+      "name": "bulbasaur",
+      "url": "https://pokeapi.co/api/v2/pokemon-form/1/"
+    }
+  ],
+  "name": "bulbasaur",
+  "order": 1,
+  "species": {
+    "name": "bulbasaur",
+    "url": "https://pokeapi.co/api/v2/pokemon-species/1/"
+  },
+  "sprites": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/1.png",
+  "stats": [
+    {
+      "base_stat": 45,
+      "stat_name": "hp"
+    },
+    {
+      "base_stat": 49,
+      "stat_name": "attack"
+    },
+    {
+      "base_stat": 49,
+      "stat_name": "defense"
+    },
+    {
+      "base_stat": 65,
+      "stat_name": "special-attack"
+    },
+    {
+      "base_stat": 65,
+      "stat_name": "special-defense"
+    },
+    {
+      "base_stat": 45,
+      "stat_name": "speed"
+    }
+  ],
+  "types": [
+    {
+      "slot": 1,
+      "type_name": "grass"
+    },
+    {
+      "slot": 2,
+      "type_name": "poison"
+    }
+  ]
+}
+07/22/2021 11:55:39 PM - INFO       - {
+  "forms": [
+    {
+      "name": "bulbasaur",
+      "url": "https://pokeapi.co/api/v2/pokemon-form/1/"
+    }
+  ],
+  "name": "bulbasaur",
+  "order": 1,
+  "species": {
+    "name": "bulbasaur",
+    "url": "https://pokeapi.co/api/v2/pokemon-species/1/"
+  },
+  "sprites": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/1.png",
+  "stats": [
+    {
+      "base_stat": 45,
+      "stat_name": "hp"
+    },
+    {
+      "base_stat": 49,
+      "stat_name": "attack"
+    },
+    {
+      "base_stat": 49,
+      "stat_name": "defense"
+    },
+    {
+      "base_stat": 65,
+      "stat_name": "special-attack"
+    },
+    {
+      "base_stat": 65,
+      "stat_name": "special-defense"
+    },
+    {
+      "base_stat": 45,
+      "stat_name": "speed"
+    }
+  ],
+  "types": [
+    {
+      "slot": 1,
+      "type_name": "grass"
+    },
+    {
+      "slot": 2,
+      "type_name": "poison"
+    }
+  ]
+}
+07/22/2021 11:55:39 PM - INFO       - calling pokeApi with url: https://pokeapi.co/api/v2/pokemon/2/
+07/22/2021 11:55:39 PM - DEBUG      - Starting new HTTPS connection (1): pokeapi.co:443
+07/22/2021 11:55:39 PM - DEBUG      - https://pokeapi.co:443 "GET /api/v2/pokemon/2/ HTTP/1.1" 200 4783
+07/22/2021 11:55:39 PM - INFO       - 
+['abilities',
+ 'base_experience',
+ 'forms',
+ 'game_indices',
+ 'height',
+ 'held_items',
+ 'id',
+ 'is_default',
+ 'location_area_encounters',
+ 'moves',
+ 'name',
+ 'order',
+ 'past_types',
+ 'species',
+ 'sprites',
+ 'stats',
+ 'types',
+ 'weight']
+07/22/2021 11:55:39 PM - INFO       - abilities                      [{'ability': {'name'          0
+07/22/2021 11:55:39 PM - INFO       - base_experience                142                           0
+07/22/2021 11:55:39 PM - INFO       - forms                          [{'name': 'ivysaur',          1
+07/22/2021 11:55:39 PM - INFO       - game_indices                   [{'game_index': 9, '          0
+07/22/2021 11:55:39 PM - INFO       - height                         10                            0
+07/22/2021 11:55:39 PM - INFO       - held_items                     []                            0
+07/22/2021 11:55:39 PM - INFO       - id                             2                             0
+07/22/2021 11:55:39 PM - INFO       - is_default                     True                          0
+07/22/2021 11:55:39 PM - INFO       - location_area_encounters       https://pokeapi.co/a          0
+07/22/2021 11:55:39 PM - INFO       - moves                          [{'move': {'name': '          0
+07/22/2021 11:55:39 PM - INFO       - name                           ivysaur                       1
+07/22/2021 11:55:39 PM - INFO       - order                          2                             1
+07/22/2021 11:55:39 PM - INFO       - past_types                     []                            0
+07/22/2021 11:55:39 PM - INFO       - species                        {'name': 'ivysaur',           1
+07/22/2021 11:55:39 PM - INFO       - sprites                        {'back_default': 'ht          1
+07/22/2021 11:55:39 PM - INFO       - stats                          [{'base_stat': 60, '          1
+07/22/2021 11:55:39 PM - INFO       - [
+  {
+    "base_stat": 60,
+    "effort": 0,
+    "stat": {
+      "name": "hp",
+      "url": "https://pokeapi.co/api/v2/stat/1/"
+    }
+  },
+  {
+    "base_stat": 62,
+    "effort": 0,
+    "stat": {
+      "name": "attack",
+      "url": "https://pokeapi.co/api/v2/stat/2/"
+    }
+  },
+  {
+    "base_stat": 63,
+    "effort": 0,
+    "stat": {
+      "name": "defense",
+      "url": "https://pokeapi.co/api/v2/stat/3/"
+    }
+  },
+  {
+    "base_stat": 80,
+    "effort": 1,
+    "stat": {
+      "name": "special-attack",
+      "url": "https://pokeapi.co/api/v2/stat/4/"
+    }
+  },
+  {
+    "base_stat": 80,
+    "effort": 1,
+    "stat": {
+      "name": "special-defense",
+      "url": "https://pokeapi.co/api/v2/stat/5/"
+    }
+  },
+  {
+    "base_stat": 60,
+    "effort": 0,
+    "stat": {
+      "name": "speed",
+      "url": "https://pokeapi.co/api/v2/stat/6/"
+    }
+  }
+]
+07/22/2021 11:55:39 PM - INFO       - [{'base_stat': 60, 'stat_name': 'hp'}, {'base_stat': 62, 'stat_name': 'attack'}, {'base_stat': 63, 'stat_name': 'defense'}, {'base_stat': 80, 'stat_name': 'special-attack'}, {'base_stat': 80, 'stat_name': 'special-defense'}, {'base_stat': 60, 'stat_name': 'speed'}]
+07/22/2021 11:55:39 PM - INFO       - types                          [{'slot': 1, 'type':          1
+07/22/2021 11:55:39 PM - INFO       - weight                         130                           0
+07/22/2021 11:55:39 PM - INFO       - {
+  "forms": [
+    {
+      "name": "ivysaur",
+      "url": "https://pokeapi.co/api/v2/pokemon-form/2/"
+    }
+  ],
+  "name": "ivysaur",
+  "order": 2,
+  "species": {
+    "name": "ivysaur",
+    "url": "https://pokeapi.co/api/v2/pokemon-species/2/"
+  },
+  "sprites": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/2.png",
+  "stats": [
+    {
+      "base_stat": 60,
+      "stat_name": "hp"
+    },
+    {
+      "base_stat": 62,
+      "stat_name": "attack"
+    },
+    {
+      "base_stat": 63,
+      "stat_name": "defense"
+    },
+    {
+      "base_stat": 80,
+      "stat_name": "special-attack"
+    },
+    {
+      "base_stat": 80,
+      "stat_name": "special-defense"
+    },
+    {
+      "base_stat": 60,
+      "stat_name": "speed"
+    }
+  ],
+  "types": [
+    {
+      "slot": 1,
+      "type_name": "grass"
+    },
+    {
+      "slot": 2,
+      "type_name": "poison"
+    }
+  ]
+}
+07/22/2021 11:55:39 PM - INFO       - {
+  "forms": [
+    {
+      "name": "ivysaur",
+      "url": "https://pokeapi.co/api/v2/pokemon-form/2/"
+    }
+  ],
+  "name": "ivysaur",
+  "order": 2,
+  "species": {
+    "name": "ivysaur",
+    "url": "https://pokeapi.co/api/v2/pokemon-species/2/"
+  },
+  "sprites": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/2.png",
+  "stats": [
+    {
+      "base_stat": 60,
+      "stat_name": "hp"
+    },
+    {
+      "base_stat": 62,
+      "stat_name": "attack"
+    },
+    {
+      "base_stat": 63,
+      "stat_name": "defense"
+    },
+    {
+      "base_stat": 80,
+      "stat_name": "special-attack"
+    },
+    {
+      "base_stat": 80,
+      "stat_name": "special-defense"
+    },
+    {
+      "base_stat": 60,
+      "stat_name": "speed"
+    }
+  ],
+  "types": [
+    {
+      "slot": 1,
+      "type_name": "grass"
+    },
+    {
+      "slot": 2,
+      "type_name": "poison"
+    }
+  ]
+}
+07/22/2021 11:57:07 PM - INFO       - Getting pokemon with limit: 2
+07/22/2021 11:57:07 PM - INFO       - calling pokeApi with url: https://pokeapi.co/api/v2/pokemon?limit=2
+07/22/2021 11:57:08 PM - INFO       - response --------------------
+07/22/2021 11:57:08 PM - INFO       - pokeResultsList: --------------------
+07/22/2021 11:57:08 PM - INFO       - {'name': 'bulbasaur', 'url': 'https://pokeapi.co/api/v2/pokemon/1/'}
+07/22/2021 11:57:08 PM - INFO       - {'name': 'ivysaur', 'url': 'https://pokeapi.co/api/v2/pokemon/2/'}
+07/22/2021 11:57:08 PM - INFO       - calling pokeApi with url: https://pokeapi.co/api/v2/pokemon/1/
+07/22/2021 11:57:08 PM - INFO       - 
+['abilities',
+ 'base_experience',
+ 'forms',
+ 'game_indices',
+ 'height',
+ 'held_items',
+ 'id',
+ 'is_default',
+ 'location_area_encounters',
+ 'moves',
+ 'name',
+ 'order',
+ 'past_types',
+ 'species',
+ 'sprites',
+ 'stats',
+ 'types',
+ 'weight']
+07/22/2021 11:57:08 PM - INFO       - abilities                      [{'ability': {'name'          0
+07/22/2021 11:57:08 PM - INFO       - base_experience                64                            0
+07/22/2021 11:57:08 PM - INFO       - forms                          [{'name': 'bulbasaur          1
+07/22/2021 11:57:08 PM - INFO       - game_indices                   [{'game_index': 153,          0
+07/22/2021 11:57:08 PM - INFO       - height                         7                             0
+07/22/2021 11:57:08 PM - INFO       - held_items                     []                            0
+07/22/2021 11:57:08 PM - INFO       - id                             1                             0
+07/22/2021 11:57:08 PM - INFO       - is_default                     True                          0
+07/22/2021 11:57:08 PM - INFO       - location_area_encounters       https://pokeapi.co/a          0
+07/22/2021 11:57:08 PM - INFO       - moves                          [{'move': {'name': '          0
+07/22/2021 11:57:08 PM - INFO       - name                           bulbasaur                     1
+07/22/2021 11:57:08 PM - INFO       - order                          1                             1
+07/22/2021 11:57:08 PM - INFO       - past_types                     []                            0
+07/22/2021 11:57:08 PM - INFO       - species                        {'name': 'bulbasaur'          1
+07/22/2021 11:57:08 PM - INFO       - sprites                        {'back_default': 'ht          1
+07/22/2021 11:57:08 PM - INFO       - stats                          [{'base_stat': 45, '          1
+07/22/2021 11:57:08 PM - INFO       - [
+  {
+    "base_stat": 45,
+    "effort": 0,
+    "stat": {
+      "name": "hp",
+      "url": "https://pokeapi.co/api/v2/stat/1/"
+    }
+  },
+  {
+    "base_stat": 49,
+    "effort": 0,
+    "stat": {
+      "name": "attack",
+      "url": "https://pokeapi.co/api/v2/stat/2/"
+    }
+  },
+  {
+    "base_stat": 49,
+    "effort": 0,
+    "stat": {
+      "name": "defense",
+      "url": "https://pokeapi.co/api/v2/stat/3/"
+    }
+  },
+  {
+    "base_stat": 65,
+    "effort": 1,
+    "stat": {
+      "name": "special-attack",
+      "url": "https://pokeapi.co/api/v2/stat/4/"
+    }
+  },
+  {
+    "base_stat": 65,
+    "effort": 0,
+    "stat": {
+      "name": "special-defense",
+      "url": "https://pokeapi.co/api/v2/stat/5/"
+    }
+  },
+  {
+    "base_stat": 45,
+    "effort": 0,
+    "stat": {
+      "name": "speed",
+      "url": "https://pokeapi.co/api/v2/stat/6/"
+    }
+  }
+]
+07/22/2021 11:57:08 PM - INFO       - [{'base_stat': 45, 'stat_name': 'hp'}, {'base_stat': 49, 'stat_name': 'attack'}, {'base_stat': 49, 'stat_name': 'defense'}, {'base_stat': 65, 'stat_name': 'special-attack'}, {'base_stat': 65, 'stat_name': 'special-defense'}, {'base_stat': 45, 'stat_name': 'speed'}]
+07/22/2021 11:57:08 PM - INFO       - types                          [{'slot': 1, 'type':          1
+07/22/2021 11:57:08 PM - INFO       - weight                         69                            0
+07/22/2021 11:57:08 PM - INFO       - {
+  "forms": [
+    {
+      "name": "bulbasaur",
+      "url": "https://pokeapi.co/api/v2/pokemon-form/1/"
+    }
+  ],
+  "name": "bulbasaur",
+  "order": 1,
+  "species": {
+    "name": "bulbasaur",
+    "url": "https://pokeapi.co/api/v2/pokemon-species/1/"
+  },
+  "sprites": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/1.png",
+  "stats": [
+    {
+      "base_stat": 45,
+      "stat_name": "hp"
+    },
+    {
+      "base_stat": 49,
+      "stat_name": "attack"
+    },
+    {
+      "base_stat": 49,
+      "stat_name": "defense"
+    },
+    {
+      "base_stat": 65,
+      "stat_name": "special-attack"
+    },
+    {
+      "base_stat": 65,
+      "stat_name": "special-defense"
+    },
+    {
+      "base_stat": 45,
+      "stat_name": "speed"
+    }
+  ],
+  "types": [
+    {
+      "slot": 1,
+      "type_name": "grass"
+    },
+    {
+      "slot": 2,
+      "type_name": "poison"
+    }
+  ]
+}
+07/22/2021 11:57:08 PM - INFO       - {
+  "forms": [
+    {
+      "name": "bulbasaur",
+      "url": "https://pokeapi.co/api/v2/pokemon-form/1/"
+    }
+  ],
+  "name": "bulbasaur",
+  "order": 1,
+  "species": {
+    "name": "bulbasaur",
+    "url": "https://pokeapi.co/api/v2/pokemon-species/1/"
+  },
+  "sprites": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/1.png",
+  "stats": [
+    {
+      "base_stat": 45,
+      "stat_name": "hp"
+    },
+    {
+      "base_stat": 49,
+      "stat_name": "attack"
+    },
+    {
+      "base_stat": 49,
+      "stat_name": "defense"
+    },
+    {
+      "base_stat": 65,
+      "stat_name": "special-attack"
+    },
+    {
+      "base_stat": 65,
+      "stat_name": "special-defense"
+    },
+    {
+      "base_stat": 45,
+      "stat_name": "speed"
+    }
+  ],
+  "types": [
+    {
+      "slot": 1,
+      "type_name": "grass"
+    },
+    {
+      "slot": 2,
+      "type_name": "poison"
+    }
+  ]
+}
+07/22/2021 11:57:08 PM - INFO       - calling pokeApi with url: https://pokeapi.co/api/v2/pokemon/2/
+07/22/2021 11:57:08 PM - INFO       - 
+['abilities',
+ 'base_experience',
+ 'forms',
+ 'game_indices',
+ 'height',
+ 'held_items',
+ 'id',
+ 'is_default',
+ 'location_area_encounters',
+ 'moves',
+ 'name',
+ 'order',
+ 'past_types',
+ 'species',
+ 'sprites',
+ 'stats',
+ 'types',
+ 'weight']
+07/22/2021 11:57:08 PM - INFO       - abilities                      [{'ability': {'name'          0
+07/22/2021 11:57:08 PM - INFO       - base_experience                142                           0
+07/22/2021 11:57:08 PM - INFO       - forms                          [{'name': 'ivysaur',          1
+07/22/2021 11:57:08 PM - INFO       - game_indices                   [{'game_index': 9, '          0
+07/22/2021 11:57:08 PM - INFO       - height                         10                            0
+07/22/2021 11:57:08 PM - INFO       - held_items                     []                            0
+07/22/2021 11:57:08 PM - INFO       - id                             2                             0
+07/22/2021 11:57:08 PM - INFO       - is_default                     True                          0
+07/22/2021 11:57:08 PM - INFO       - location_area_encounters       https://pokeapi.co/a          0
+07/22/2021 11:57:08 PM - INFO       - moves                          [{'move': {'name': '          0
+07/22/2021 11:57:08 PM - INFO       - name                           ivysaur                       1
+07/22/2021 11:57:08 PM - INFO       - order                          2                             1
+07/22/2021 11:57:08 PM - INFO       - past_types                     []                            0
+07/22/2021 11:57:08 PM - INFO       - species                        {'name': 'ivysaur',           1
+07/22/2021 11:57:08 PM - INFO       - sprites                        {'back_default': 'ht          1
+07/22/2021 11:57:08 PM - INFO       - stats                          [{'base_stat': 60, '          1
+07/22/2021 11:57:08 PM - INFO       - [
+  {
+    "base_stat": 60,
+    "effort": 0,
+    "stat": {
+      "name": "hp",
+      "url": "https://pokeapi.co/api/v2/stat/1/"
+    }
+  },
+  {
+    "base_stat": 62,
+    "effort": 0,
+    "stat": {
+      "name": "attack",
+      "url": "https://pokeapi.co/api/v2/stat/2/"
+    }
+  },
+  {
+    "base_stat": 63,
+    "effort": 0,
+    "stat": {
+      "name": "defense",
+      "url": "https://pokeapi.co/api/v2/stat/3/"
+    }
+  },
+  {
+    "base_stat": 80,
+    "effort": 1,
+    "stat": {
+      "name": "special-attack",
+      "url": "https://pokeapi.co/api/v2/stat/4/"
+    }
+  },
+  {
+    "base_stat": 80,
+    "effort": 1,
+    "stat": {
+      "name": "special-defense",
+      "url": "https://pokeapi.co/api/v2/stat/5/"
+    }
+  },
+  {
+    "base_stat": 60,
+    "effort": 0,
+    "stat": {
+      "name": "speed",
+      "url": "https://pokeapi.co/api/v2/stat/6/"
+    }
+  }
+]
+07/22/2021 11:57:08 PM - INFO       - [{'base_stat': 60, 'stat_name': 'hp'}, {'base_stat': 62, 'stat_name': 'attack'}, {'base_stat': 63, 'stat_name': 'defense'}, {'base_stat': 80, 'stat_name': 'special-attack'}, {'base_stat': 80, 'stat_name': 'special-defense'}, {'base_stat': 60, 'stat_name': 'speed'}]
+07/22/2021 11:57:08 PM - INFO       - types                          [{'slot': 1, 'type':          1
+07/22/2021 11:57:08 PM - INFO       - weight                         130                           0
+07/22/2021 11:57:08 PM - INFO       - {
+  "forms": [
+    {
+      "name": "ivysaur",
+      "url": "https://pokeapi.co/api/v2/pokemon-form/2/"
+    }
+  ],
+  "name": "ivysaur",
+  "order": 2,
+  "species": {
+    "name": "ivysaur",
+    "url": "https://pokeapi.co/api/v2/pokemon-species/2/"
+  },
+  "sprites": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/2.png",
+  "stats": [
+    {
+      "base_stat": 60,
+      "stat_name": "hp"
+    },
+    {
+      "base_stat": 62,
+      "stat_name": "attack"
+    },
+    {
+      "base_stat": 63,
+      "stat_name": "defense"
+    },
+    {
+      "base_stat": 80,
+      "stat_name": "special-attack"
+    },
+    {
+      "base_stat": 80,
+      "stat_name": "special-defense"
+    },
+    {
+      "base_stat": 60,
+      "stat_name": "speed"
+    }
+  ],
+  "types": [
+    {
+      "slot": 1,
+      "type_name": "grass"
+    },
+    {
+      "slot": 2,
+      "type_name": "poison"
+    }
+  ]
+}
+07/22/2021 11:57:08 PM - INFO       - {
+  "forms": [
+    {
+      "name": "ivysaur",
+      "url": "https://pokeapi.co/api/v2/pokemon-form/2/"
+    }
+  ],
+  "name": "ivysaur",
+  "order": 2,
+  "species": {
+    "name": "ivysaur",
+    "url": "https://pokeapi.co/api/v2/pokemon-species/2/"
+  },
+  "sprites": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/2.png",
+  "stats": [
+    {
+      "base_stat": 60,
+      "stat_name": "hp"
+    },
+    {
+      "base_stat": 62,
+      "stat_name": "attack"
+    },
+    {
+      "base_stat": 63,
+      "stat_name": "defense"
+    },
+    {
+      "base_stat": 80,
+      "stat_name": "special-attack"
+    },
+    {
+      "base_stat": 80,
+      "stat_name": "special-defense"
+    },
+    {
+      "base_stat": 60,
+      "stat_name": "speed"
+    }
+  ],
+  "types": [
+    {
+      "slot": 1,
+      "type_name": "grass"
+    },
+    {
+      "slot": 2,
+      "type_name": "poison"
+    }
+  ]
+}
+07/22/2021 11:57:24 PM - INFO       - Getting pokemon with limit: 2
+07/22/2021 11:57:25 PM - INFO       - response --------------------
+07/22/2021 11:57:25 PM - INFO       - pokeResultsList: --------------------
+07/22/2021 11:57:25 PM - INFO       - {'name': 'bulbasaur', 'url': 'https://pokeapi.co/api/v2/pokemon/1/'}
+07/22/2021 11:57:25 PM - INFO       - {'name': 'ivysaur', 'url': 'https://pokeapi.co/api/v2/pokemon/2/'}
+07/22/2021 11:57:25 PM - INFO       - calling pokeApi with url: https://pokeapi.co/api/v2/pokemon/1/
+07/22/2021 11:57:25 PM - INFO       - 
+['abilities',
+ 'base_experience',
+ 'forms',
+ 'game_indices',
+ 'height',
+ 'held_items',
+ 'id',
+ 'is_default',
+ 'location_area_encounters',
+ 'moves',
+ 'name',
+ 'order',
+ 'past_types',
+ 'species',
+ 'sprites',
+ 'stats',
+ 'types',
+ 'weight']
+07/22/2021 11:57:25 PM - INFO       - abilities                      [{'ability': {'name'          0
+07/22/2021 11:57:25 PM - INFO       - base_experience                64                            0
+07/22/2021 11:57:25 PM - INFO       - forms                          [{'name': 'bulbasaur          1
+07/22/2021 11:57:25 PM - INFO       - game_indices                   [{'game_index': 153,          0
+07/22/2021 11:57:25 PM - INFO       - height                         7                             0
+07/22/2021 11:57:25 PM - INFO       - held_items                     []                            0
+07/22/2021 11:57:25 PM - INFO       - id                             1                             0
+07/22/2021 11:57:25 PM - INFO       - is_default                     True                          0
+07/22/2021 11:57:25 PM - INFO       - location_area_encounters       https://pokeapi.co/a          0
+07/22/2021 11:57:25 PM - INFO       - moves                          [{'move': {'name': '          0
+07/22/2021 11:57:25 PM - INFO       - name                           bulbasaur                     1
+07/22/2021 11:57:25 PM - INFO       - order                          1                             1
+07/22/2021 11:57:25 PM - INFO       - past_types                     []                            0
+07/22/2021 11:57:25 PM - INFO       - species                        {'name': 'bulbasaur'          1
+07/22/2021 11:57:25 PM - INFO       - sprites                        {'back_default': 'ht          1
+07/22/2021 11:57:25 PM - INFO       - stats                          [{'base_stat': 45, '          1
+07/22/2021 11:57:25 PM - INFO       - [
+  {
+    "base_stat": 45,
+    "effort": 0,
+    "stat": {
+      "name": "hp",
+      "url": "https://pokeapi.co/api/v2/stat/1/"
+    }
+  },
+  {
+    "base_stat": 49,
+    "effort": 0,
+    "stat": {
+      "name": "attack",
+      "url": "https://pokeapi.co/api/v2/stat/2/"
+    }
+  },
+  {
+    "base_stat": 49,
+    "effort": 0,
+    "stat": {
+      "name": "defense",
+      "url": "https://pokeapi.co/api/v2/stat/3/"
+    }
+  },
+  {
+    "base_stat": 65,
+    "effort": 1,
+    "stat": {
+      "name": "special-attack",
+      "url": "https://pokeapi.co/api/v2/stat/4/"
+    }
+  },
+  {
+    "base_stat": 65,
+    "effort": 0,
+    "stat": {
+      "name": "special-defense",
+      "url": "https://pokeapi.co/api/v2/stat/5/"
+    }
+  },
+  {
+    "base_stat": 45,
+    "effort": 0,
+    "stat": {
+      "name": "speed",
+      "url": "https://pokeapi.co/api/v2/stat/6/"
+    }
+  }
+]
+07/22/2021 11:57:25 PM - INFO       - [{'base_stat': 45, 'stat_name': 'hp'}, {'base_stat': 49, 'stat_name': 'attack'}, {'base_stat': 49, 'stat_name': 'defense'}, {'base_stat': 65, 'stat_name': 'special-attack'}, {'base_stat': 65, 'stat_name': 'special-defense'}, {'base_stat': 45, 'stat_name': 'speed'}]
+07/22/2021 11:57:25 PM - INFO       - types                          [{'slot': 1, 'type':          1
+07/22/2021 11:57:25 PM - INFO       - weight                         69                            0
+07/22/2021 11:57:25 PM - INFO       - {
+  "forms": [
+    {
+      "name": "bulbasaur",
+      "url": "https://pokeapi.co/api/v2/pokemon-form/1/"
+    }
+  ],
+  "name": "bulbasaur",
+  "order": 1,
+  "species": {
+    "name": "bulbasaur",
+    "url": "https://pokeapi.co/api/v2/pokemon-species/1/"
+  },
+  "sprites": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/1.png",
+  "stats": [
+    {
+      "base_stat": 45,
+      "stat_name": "hp"
+    },
+    {
+      "base_stat": 49,
+      "stat_name": "attack"
+    },
+    {
+      "base_stat": 49,
+      "stat_name": "defense"
+    },
+    {
+      "base_stat": 65,
+      "stat_name": "special-attack"
+    },
+    {
+      "base_stat": 65,
+      "stat_name": "special-defense"
+    },
+    {
+      "base_stat": 45,
+      "stat_name": "speed"
+    }
+  ],
+  "types": [
+    {
+      "slot": 1,
+      "type_name": "grass"
+    },
+    {
+      "slot": 2,
+      "type_name": "poison"
+    }
+  ]
+}
+07/22/2021 11:57:25 PM - INFO       - {
+  "forms": [
+    {
+      "name": "bulbasaur",
+      "url": "https://pokeapi.co/api/v2/pokemon-form/1/"
+    }
+  ],
+  "name": "bulbasaur",
+  "order": 1,
+  "species": {
+    "name": "bulbasaur",
+    "url": "https://pokeapi.co/api/v2/pokemon-species/1/"
+  },
+  "sprites": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/1.png",
+  "stats": [
+    {
+      "base_stat": 45,
+      "stat_name": "hp"
+    },
+    {
+      "base_stat": 49,
+      "stat_name": "attack"
+    },
+    {
+      "base_stat": 49,
+      "stat_name": "defense"
+    },
+    {
+      "base_stat": 65,
+      "stat_name": "special-attack"
+    },
+    {
+      "base_stat": 65,
+      "stat_name": "special-defense"
+    },
+    {
+      "base_stat": 45,
+      "stat_name": "speed"
+    }
+  ],
+  "types": [
+    {
+      "slot": 1,
+      "type_name": "grass"
+    },
+    {
+      "slot": 2,
+      "type_name": "poison"
+    }
+  ]
+}
+07/22/2021 11:57:25 PM - INFO       - calling pokeApi with url: https://pokeapi.co/api/v2/pokemon/2/
+07/22/2021 11:57:25 PM - INFO       - 
+['abilities',
+ 'base_experience',
+ 'forms',
+ 'game_indices',
+ 'height',
+ 'held_items',
+ 'id',
+ 'is_default',
+ 'location_area_encounters',
+ 'moves',
+ 'name',
+ 'order',
+ 'past_types',
+ 'species',
+ 'sprites',
+ 'stats',
+ 'types',
+ 'weight']
+07/22/2021 11:57:25 PM - INFO       - abilities                      [{'ability': {'name'          0
+07/22/2021 11:57:25 PM - INFO       - base_experience                142                           0
+07/22/2021 11:57:25 PM - INFO       - forms                          [{'name': 'ivysaur',          1
+07/22/2021 11:57:25 PM - INFO       - game_indices                   [{'game_index': 9, '          0
+07/22/2021 11:57:25 PM - INFO       - height                         10                            0
+07/22/2021 11:57:25 PM - INFO       - held_items                     []                            0
+07/22/2021 11:57:25 PM - INFO       - id                             2                             0
+07/22/2021 11:57:25 PM - INFO       - is_default                     True                          0
+07/22/2021 11:57:25 PM - INFO       - location_area_encounters       https://pokeapi.co/a          0
+07/22/2021 11:57:25 PM - INFO       - moves                          [{'move': {'name': '          0
+07/22/2021 11:57:25 PM - INFO       - name                           ivysaur                       1
+07/22/2021 11:57:25 PM - INFO       - order                          2                             1
+07/22/2021 11:57:25 PM - INFO       - past_types                     []                            0
+07/22/2021 11:57:25 PM - INFO       - species                        {'name': 'ivysaur',           1
+07/22/2021 11:57:25 PM - INFO       - sprites                        {'back_default': 'ht          1
+07/22/2021 11:57:25 PM - INFO       - stats                          [{'base_stat': 60, '          1
+07/22/2021 11:57:25 PM - INFO       - [
+  {
+    "base_stat": 60,
+    "effort": 0,
+    "stat": {
+      "name": "hp",
+      "url": "https://pokeapi.co/api/v2/stat/1/"
+    }
+  },
+  {
+    "base_stat": 62,
+    "effort": 0,
+    "stat": {
+      "name": "attack",
+      "url": "https://pokeapi.co/api/v2/stat/2/"
+    }
+  },
+  {
+    "base_stat": 63,
+    "effort": 0,
+    "stat": {
+      "name": "defense",
+      "url": "https://pokeapi.co/api/v2/stat/3/"
+    }
+  },
+  {
+    "base_stat": 80,
+    "effort": 1,
+    "stat": {
+      "name": "special-attack",
+      "url": "https://pokeapi.co/api/v2/stat/4/"
+    }
+  },
+  {
+    "base_stat": 80,
+    "effort": 1,
+    "stat": {
+      "name": "special-defense",
+      "url": "https://pokeapi.co/api/v2/stat/5/"
+    }
+  },
+  {
+    "base_stat": 60,
+    "effort": 0,
+    "stat": {
+      "name": "speed",
+      "url": "https://pokeapi.co/api/v2/stat/6/"
+    }
+  }
+]
+07/22/2021 11:57:25 PM - INFO       - [{'base_stat': 60, 'stat_name': 'hp'}, {'base_stat': 62, 'stat_name': 'attack'}, {'base_stat': 63, 'stat_name': 'defense'}, {'base_stat': 80, 'stat_name': 'special-attack'}, {'base_stat': 80, 'stat_name': 'special-defense'}, {'base_stat': 60, 'stat_name': 'speed'}]
+07/22/2021 11:57:25 PM - INFO       - types                          [{'slot': 1, 'type':          1
+07/22/2021 11:57:25 PM - INFO       - weight                         130                           0
+07/22/2021 11:57:25 PM - INFO       - {
+  "forms": [
+    {
+      "name": "ivysaur",
+      "url": "https://pokeapi.co/api/v2/pokemon-form/2/"
+    }
+  ],
+  "name": "ivysaur",
+  "order": 2,
+  "species": {
+    "name": "ivysaur",
+    "url": "https://pokeapi.co/api/v2/pokemon-species/2/"
+  },
+  "sprites": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/2.png",
+  "stats": [
+    {
+      "base_stat": 60,
+      "stat_name": "hp"
+    },
+    {
+      "base_stat": 62,
+      "stat_name": "attack"
+    },
+    {
+      "base_stat": 63,
+      "stat_name": "defense"
+    },
+    {
+      "base_stat": 80,
+      "stat_name": "special-attack"
+    },
+    {
+      "base_stat": 80,
+      "stat_name": "special-defense"
+    },
+    {
+      "base_stat": 60,
+      "stat_name": "speed"
+    }
+  ],
+  "types": [
+    {
+      "slot": 1,
+      "type_name": "grass"
+    },
+    {
+      "slot": 2,
+      "type_name": "poison"
+    }
+  ]
+}
+07/22/2021 11:57:25 PM - INFO       - {
+  "forms": [
+    {
+      "name": "ivysaur",
+      "url": "https://pokeapi.co/api/v2/pokemon-form/2/"
+    }
+  ],
+  "name": "ivysaur",
+  "order": 2,
+  "species": {
+    "name": "ivysaur",
+    "url": "https://pokeapi.co/api/v2/pokemon-species/2/"
+  },
+  "sprites": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/2.png",
+  "stats": [
+    {
+      "base_stat": 60,
+      "stat_name": "hp"
+    },
+    {
+      "base_stat": 62,
+      "stat_name": "attack"
+    },
+    {
+      "base_stat": 63,
+      "stat_name": "defense"
+    },
+    {
+      "base_stat": 80,
+      "stat_name": "special-attack"
+    },
+    {
+      "base_stat": 80,
+      "stat_name": "special-defense"
+    },
+    {
+      "base_stat": 60,
+      "stat_name": "speed"
+    }
+  ],
+  "types": [
+    {
+      "slot": 1,
+      "type_name": "grass"
+    },
+    {
+      "slot": 2,
+      "type_name": "poison"
+    }
+  ]
+}
+07/25/2021 10:31:32 PM - INFO       - Getting pokemon with limit: 2
+07/25/2021 10:31:32 PM - INFO       - calling pokeApi with url: https://pokeapi.co/api/v2/pokemon?limit=2
+07/25/2021 10:31:34 PM - INFO       - response --------------------
+07/25/2021 10:31:34 PM - INFO       - pokeResultsList: --------------------
+07/25/2021 10:31:34 PM - INFO       - {'name': 'bulbasaur', 'url': 'https://pokeapi.co/api/v2/pokemon/1/'}
+07/25/2021 10:31:34 PM - INFO       - {'name': 'ivysaur', 'url': 'https://pokeapi.co/api/v2/pokemon/2/'}
+07/25/2021 10:31:34 PM - INFO       - calling pokeApi with url: https://pokeapi.co/api/v2/pokemon/1/
+07/25/2021 10:31:34 PM - INFO       - 
+['abilities',
+ 'base_experience',
+ 'forms',
+ 'game_indices',
+ 'height',
+ 'held_items',
+ 'id',
+ 'is_default',
+ 'location_area_encounters',
+ 'moves',
+ 'name',
+ 'order',
+ 'past_types',
+ 'species',
+ 'sprites',
+ 'stats',
+ 'types',
+ 'weight']
+07/25/2021 10:31:34 PM - INFO       - abilities                      [{'ability': {'name'          0
+07/25/2021 10:31:34 PM - INFO       - base_experience                64                            0
+07/25/2021 10:31:34 PM - INFO       - forms                          [{'name': 'bulbasaur          1
+07/25/2021 10:31:34 PM - INFO       - game_indices                   [{'game_index': 153,          0
+07/25/2021 10:31:34 PM - INFO       - height                         7                             0
+07/25/2021 10:31:34 PM - INFO       - held_items                     []                            0
+07/25/2021 10:31:34 PM - INFO       - id                             1                             0
+07/25/2021 10:31:34 PM - INFO       - is_default                     True                          0
+07/25/2021 10:31:34 PM - INFO       - location_area_encounters       https://pokeapi.co/a          0
+07/25/2021 10:31:34 PM - INFO       - moves                          [{'move': {'name': '          0
+07/25/2021 10:31:34 PM - INFO       - name                           bulbasaur                     1
+07/25/2021 10:31:34 PM - INFO       - order                          1                             1
+07/25/2021 10:31:34 PM - INFO       - past_types                     []                            0
+07/25/2021 10:31:34 PM - INFO       - species                        {'name': 'bulbasaur'          1
+07/25/2021 10:31:34 PM - INFO       - sprites                        {'back_default': 'ht          1
+07/25/2021 10:31:34 PM - INFO       - stats                          [{'base_stat': 45, '          1
+07/25/2021 10:31:34 PM - INFO       - [
+  {
+    "base_stat": 45,
+    "effort": 0,
+    "stat": {
+      "name": "hp",
+      "url": "https://pokeapi.co/api/v2/stat/1/"
+    }
+  },
+  {
+    "base_stat": 49,
+    "effort": 0,
+    "stat": {
+      "name": "attack",
+      "url": "https://pokeapi.co/api/v2/stat/2/"
+    }
+  },
+  {
+    "base_stat": 49,
+    "effort": 0,
+    "stat": {
+      "name": "defense",
+      "url": "https://pokeapi.co/api/v2/stat/3/"
+    }
+  },
+  {
+    "base_stat": 65,
+    "effort": 1,
+    "stat": {
+      "name": "special-attack",
+      "url": "https://pokeapi.co/api/v2/stat/4/"
+    }
+  },
+  {
+    "base_stat": 65,
+    "effort": 0,
+    "stat": {
+      "name": "special-defense",
+      "url": "https://pokeapi.co/api/v2/stat/5/"
+    }
+  },
+  {
+    "base_stat": 45,
+    "effort": 0,
+    "stat": {
+      "name": "speed",
+      "url": "https://pokeapi.co/api/v2/stat/6/"
+    }
+  }
+]
+07/25/2021 10:31:34 PM - INFO       - [{'base_stat': 45, 'stat_name': 'hp'}, {'base_stat': 49, 'stat_name': 'attack'}, {'base_stat': 49, 'stat_name': 'defense'}, {'base_stat': 65, 'stat_name': 'special-attack'}, {'base_stat': 65, 'stat_name': 'special-defense'}, {'base_stat': 45, 'stat_name': 'speed'}]
+07/25/2021 10:31:34 PM - INFO       - types                          [{'slot': 1, 'type':          1
+07/25/2021 10:31:34 PM - INFO       - weight                         69                            0
+07/25/2021 10:31:34 PM - INFO       - {
+  "forms": [
+    {
+      "name": "bulbasaur",
+      "url": "https://pokeapi.co/api/v2/pokemon-form/1/"
+    }
+  ],
+  "name": "bulbasaur",
+  "order": 1,
+  "species": {
+    "name": "bulbasaur",
+    "url": "https://pokeapi.co/api/v2/pokemon-species/1/"
+  },
+  "sprites": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/1.png",
+  "stats": [
+    {
+      "base_stat": 45,
+      "stat_name": "hp"
+    },
+    {
+      "base_stat": 49,
+      "stat_name": "attack"
+    },
+    {
+      "base_stat": 49,
+      "stat_name": "defense"
+    },
+    {
+      "base_stat": 65,
+      "stat_name": "special-attack"
+    },
+    {
+      "base_stat": 65,
+      "stat_name": "special-defense"
+    },
+    {
+      "base_stat": 45,
+      "stat_name": "speed"
+    }
+  ],
+  "types": [
+    {
+      "slot": 1,
+      "type_name": "grass"
+    },
+    {
+      "slot": 2,
+      "type_name": "poison"
+    }
+  ]
+}
+07/25/2021 10:31:34 PM - INFO       - {
+  "forms": [
+    {
+      "name": "bulbasaur",
+      "url": "https://pokeapi.co/api/v2/pokemon-form/1/"
+    }
+  ],
+  "name": "bulbasaur",
+  "order": 1,
+  "species": {
+    "name": "bulbasaur",
+    "url": "https://pokeapi.co/api/v2/pokemon-species/1/"
+  },
+  "sprites": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/1.png",
+  "stats": [
+    {
+      "base_stat": 45,
+      "stat_name": "hp"
+    },
+    {
+      "base_stat": 49,
+      "stat_name": "attack"
+    },
+    {
+      "base_stat": 49,
+      "stat_name": "defense"
+    },
+    {
+      "base_stat": 65,
+      "stat_name": "special-attack"
+    },
+    {
+      "base_stat": 65,
+      "stat_name": "special-defense"
+    },
+    {
+      "base_stat": 45,
+      "stat_name": "speed"
+    }
+  ],
+  "types": [
+    {
+      "slot": 1,
+      "type_name": "grass"
+    },
+    {
+      "slot": 2,
+      "type_name": "poison"
+    }
+  ]
+}
+07/25/2021 10:31:34 PM - INFO       - calling pokeApi with url: https://pokeapi.co/api/v2/pokemon/2/
+07/25/2021 10:31:34 PM - INFO       - 
+['abilities',
+ 'base_experience',
+ 'forms',
+ 'game_indices',
+ 'height',
+ 'held_items',
+ 'id',
+ 'is_default',
+ 'location_area_encounters',
+ 'moves',
+ 'name',
+ 'order',
+ 'past_types',
+ 'species',
+ 'sprites',
+ 'stats',
+ 'types',
+ 'weight']
+07/25/2021 10:31:34 PM - INFO       - abilities                      [{'ability': {'name'          0
+07/25/2021 10:31:34 PM - INFO       - base_experience                142                           0
+07/25/2021 10:31:34 PM - INFO       - forms                          [{'name': 'ivysaur',          1
+07/25/2021 10:31:34 PM - INFO       - game_indices                   [{'game_index': 9, '          0
+07/25/2021 10:31:34 PM - INFO       - height                         10                            0
+07/25/2021 10:31:34 PM - INFO       - held_items                     []                            0
+07/25/2021 10:31:34 PM - INFO       - id                             2                             0
+07/25/2021 10:31:34 PM - INFO       - is_default                     True                          0
+07/25/2021 10:31:34 PM - INFO       - location_area_encounters       https://pokeapi.co/a          0
+07/25/2021 10:31:34 PM - INFO       - moves                          [{'move': {'name': '          0
+07/25/2021 10:31:34 PM - INFO       - name                           ivysaur                       1
+07/25/2021 10:31:34 PM - INFO       - order                          2                             1
+07/25/2021 10:31:34 PM - INFO       - past_types                     []                            0
+07/25/2021 10:31:34 PM - INFO       - species                        {'name': 'ivysaur',           1
+07/25/2021 10:31:34 PM - INFO       - sprites                        {'back_default': 'ht          1
+07/25/2021 10:31:34 PM - INFO       - stats                          [{'base_stat': 60, '          1
+07/25/2021 10:31:34 PM - INFO       - [
+  {
+    "base_stat": 60,
+    "effort": 0,
+    "stat": {
+      "name": "hp",
+      "url": "https://pokeapi.co/api/v2/stat/1/"
+    }
+  },
+  {
+    "base_stat": 62,
+    "effort": 0,
+    "stat": {
+      "name": "attack",
+      "url": "https://pokeapi.co/api/v2/stat/2/"
+    }
+  },
+  {
+    "base_stat": 63,
+    "effort": 0,
+    "stat": {
+      "name": "defense",
+      "url": "https://pokeapi.co/api/v2/stat/3/"
+    }
+  },
+  {
+    "base_stat": 80,
+    "effort": 1,
+    "stat": {
+      "name": "special-attack",
+      "url": "https://pokeapi.co/api/v2/stat/4/"
+    }
+  },
+  {
+    "base_stat": 80,
+    "effort": 1,
+    "stat": {
+      "name": "special-defense",
+      "url": "https://pokeapi.co/api/v2/stat/5/"
+    }
+  },
+  {
+    "base_stat": 60,
+    "effort": 0,
+    "stat": {
+      "name": "speed",
+      "url": "https://pokeapi.co/api/v2/stat/6/"
+    }
+  }
+]
+07/25/2021 10:31:34 PM - INFO       - [{'base_stat': 60, 'stat_name': 'hp'}, {'base_stat': 62, 'stat_name': 'attack'}, {'base_stat': 63, 'stat_name': 'defense'}, {'base_stat': 80, 'stat_name': 'special-attack'}, {'base_stat': 80, 'stat_name': 'special-defense'}, {'base_stat': 60, 'stat_name': 'speed'}]
+07/25/2021 10:31:34 PM - INFO       - types                          [{'slot': 1, 'type':          1
+07/25/2021 10:31:34 PM - INFO       - weight                         130                           0
+07/25/2021 10:31:34 PM - INFO       - {
+  "forms": [
+    {
+      "name": "ivysaur",
+      "url": "https://pokeapi.co/api/v2/pokemon-form/2/"
+    }
+  ],
+  "name": "ivysaur",
+  "order": 2,
+  "species": {
+    "name": "ivysaur",
+    "url": "https://pokeapi.co/api/v2/pokemon-species/2/"
+  },
+  "sprites": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/2.png",
+  "stats": [
+    {
+      "base_stat": 60,
+      "stat_name": "hp"
+    },
+    {
+      "base_stat": 62,
+      "stat_name": "attack"
+    },
+    {
+      "base_stat": 63,
+      "stat_name": "defense"
+    },
+    {
+      "base_stat": 80,
+      "stat_name": "special-attack"
+    },
+    {
+      "base_stat": 80,
+      "stat_name": "special-defense"
+    },
+    {
+      "base_stat": 60,
+      "stat_name": "speed"
+    }
+  ],
+  "types": [
+    {
+      "slot": 1,
+      "type_name": "grass"
+    },
+    {
+      "slot": 2,
+      "type_name": "poison"
+    }
+  ]
+}
+07/25/2021 10:31:34 PM - INFO       - {
+  "forms": [
+    {
+      "name": "ivysaur",
+      "url": "https://pokeapi.co/api/v2/pokemon-form/2/"
+    }
+  ],
+  "name": "ivysaur",
+  "order": 2,
+  "species": {
+    "name": "ivysaur",
+    "url": "https://pokeapi.co/api/v2/pokemon-species/2/"
+  },
+  "sprites": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/2.png",
+  "stats": [
+    {
+      "base_stat": 60,
+      "stat_name": "hp"
+    },
+    {
+      "base_stat": 62,
+      "stat_name": "attack"
+    },
+    {
+      "base_stat": 63,
+      "stat_name": "defense"
+    },
+    {
+      "base_stat": 80,
+      "stat_name": "special-attack"
+    },
+    {
+      "base_stat": 80,
+      "stat_name": "special-defense"
+    },
+    {
+      "base_stat": 60,
+      "stat_name": "speed"
+    }
+  ],
+  "types": [
+    {
+      "slot": 1,
+      "type_name": "grass"
+    },
+    {
+      "slot": 2,
+      "type_name": "poison"
+    }
+  ]
+}
