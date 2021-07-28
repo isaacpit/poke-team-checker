@@ -20,9 +20,11 @@ import Psychic from "../assets/icons/psychic.svg";
 import Rock from "../assets/icons/rock.svg";
 import Steel from "../assets/icons/steel.svg";
 
-export default function PokeList() {
-  console.log(pokeDataLarge);
+var whoseThatPokemonImagePath = "../assets/images/whos-that-pikachu.png";
 
+console.log("whose that pikachuImagePath: ", whoseThatPokemonImagePath);
+export default function PokeList() {
+  
   return (
     <View
       style={{
@@ -71,6 +73,7 @@ export default function PokeList() {
                     size={"sm"}
                     alt={`imagine ${name}`}
                     source={{ uri: sprites }}
+                    defaultSource={require(whoseThatPokemonImagePath)}
                   ></Image>
                 </Box>
                 <Text style={styles.text}>{name}</Text>

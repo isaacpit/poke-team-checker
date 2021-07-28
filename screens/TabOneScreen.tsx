@@ -5,13 +5,14 @@ import PokeList from "../components/PokeList";
 // import { useState } from 'react';
 import EditScreenInfo from "../components/EditScreenInfo";
 import { Text, View } from "../components/Themed";
+// export const pokeDataLarge = require("../data/poke-data.json");
 export const pokeDataLarge = require("../data/poke-data-large.json");
 
 const pokeData = require("../data/pokemon-info-small.json");
 
 export default function TabOneScreen() {
   const [data, setData] = useState(pokeData);
-  console.log("data here: ", data);
+  // console.log("data here: ", data);
   const typeList = data["type-list"];
   console.log("type-list: ", typeList);
 
